@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://MyLinkedDataCodes.com/wcf" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://MyLinkedDataCodes.com/wcf" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://MyLinkedDataCodes.com/wcf/Imports">
+      <xsd:import namespace="http://MyLinkedDataCodes.com/wcf" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/LinkedDataServiceLibrary" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="LinkedDataWcfService_Init_InputMessage">
+    <wsdl:part name="parameters" element="tns:Init" />
+  </wsdl:message>
+  <wsdl:message name="LinkedDataWcfService_Init_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InitResponse" />
+  </wsdl:message>
+  <wsdl:message name="LinkedDataWcfService_AddTripleWithUriSubject_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddTripleWithUriSubject" />
+  </wsdl:message>
+  <wsdl:message name="LinkedDataWcfService_AddTripleWithUriSubject_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddTripleWithUriSubjectResponse" />
+  </wsdl:message>
+  <wsdl:message name="LinkedDataWcfService_AddTripleWithLiteralSubject_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddTripleWithLiteralSubject" />
+  </wsdl:message>
+  <wsdl:message name="LinkedDataWcfService_AddTripleWithLiteralSubject_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddTripleWithLiteralSubjectResponse" />
+  </wsdl:message>
+  <wsdl:message name="LinkedDataWcfService_LoadFromFile_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadFromFile" />
+  </wsdl:message>
+  <wsdl:message name="LinkedDataWcfService_LoadFromFile_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadFromFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="LinkedDataWcfService_LoadFromFile_MySoapFaultFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/LinkedDataServiceLibrary" name="detail" element="q1:MySoapFault" />
+  </wsdl:message>
+  <wsdl:message name="LinkedDataWcfService_SaveToFile_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveToFile" />
+  </wsdl:message>
+  <wsdl:message name="LinkedDataWcfService_SaveToFile_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveToFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="LinkedDataWcfService_SaveToFile_MySoapFaultFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/LinkedDataServiceLibrary" name="detail" element="q2:MySoapFault" />
+  </wsdl:message>
+  <wsdl:message name="LinkedDataWcfService_ExceuteQuery_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExceuteQuery" />
+  </wsdl:message>
+  <wsdl:message name="LinkedDataWcfService_ExceuteQuery_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExceuteQueryResponse" />
+  </wsdl:message>
+  <wsdl:message name="LinkedDataWcfService_ExceuteQuery_MySoapFaultFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/LinkedDataServiceLibrary" name="detail" element="q3:MySoapFault" />
+  </wsdl:message>
+  <wsdl:message name="LinkedDataWcfService_LoadDefaultDatasourceFile_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadDefaultDatasourceFile" />
+  </wsdl:message>
+  <wsdl:message name="LinkedDataWcfService_SetMyName_InputMessage">
+    <wsdl:part name="parameters" element="tns:SetMyName" />
+  </wsdl:message>
+  <wsdl:message name="LinkedDataWcfService_SetMyName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SetMyNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="LinkedDataWcfService_SayHello_InputMessage">
+    <wsdl:part name="parameters" element="tns:SayHello" />
+  </wsdl:message>
+  <wsdl:message name="LinkedDataWcfService_SayHello_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SayHelloResponse" />
+  </wsdl:message>
+  <wsdl:portType msc:usingSession="true" name="LinkedDataWcfService">
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="Init">
+      <wsdl:input wsaw:Action="http://MyLinkedDataCodes.com/wcf/LinkedDataWcfService/Init" message="tns:LinkedDataWcfService_Init_InputMessage" />
+      <wsdl:output wsaw:Action="http://MyLinkedDataCodes.com/wcf/LinkedDataWcfService/InitResponse" message="tns:LinkedDataWcfService_Init_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="AddTripleWithUriSubject">
+      <wsdl:input wsaw:Action="http://MyLinkedDataCodes.com/wcf/LinkedDataWcfService/AddTripleWithUriSubject" message="tns:LinkedDataWcfService_AddTripleWithUriSubject_InputMessage" />
+      <wsdl:output wsaw:Action="http://MyLinkedDataCodes.com/wcf/LinkedDataWcfService/AddTripleWithUriSubjectResponse" message="tns:LinkedDataWcfService_AddTripleWithUriSubject_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="AddTripleWithLiteralSubject">
+      <wsdl:input wsaw:Action="http://MyLinkedDataCodes.com/wcf/LinkedDataWcfService/AddTripleWithLiteralSubject" message="tns:LinkedDataWcfService_AddTripleWithLiteralSubject_InputMessage" />
+      <wsdl:output wsaw:Action="http://MyLinkedDataCodes.com/wcf/LinkedDataWcfService/AddTripleWithLiteralSubjectResponse" message="tns:LinkedDataWcfService_AddTripleWithLiteralSubject_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="LoadFromFile">
+      <wsdl:input wsaw:Action="http://MyLinkedDataCodes.com/wcf/LinkedDataWcfService/LoadFromFile" message="tns:LinkedDataWcfService_LoadFromFile_InputMessage" />
+      <wsdl:output wsaw:Action="http://MyLinkedDataCodes.com/wcf/LinkedDataWcfService/LoadFromFileResponse" message="tns:LinkedDataWcfService_LoadFromFile_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://MyLinkedDataCodes.com/wcf/LinkedDataWcfService/LoadFromFileMySoapFaultFault" name="MySoapFaultFault" message="tns:LinkedDataWcfService_LoadFromFile_MySoapFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="SaveToFile">
+      <wsdl:input wsaw:Action="http://MyLinkedDataCodes.com/wcf/LinkedDataWcfService/SaveToFile" message="tns:LinkedDataWcfService_SaveToFile_InputMessage" />
+      <wsdl:output wsaw:Action="http://MyLinkedDataCodes.com/wcf/LinkedDataWcfService/SaveToFileResponse" message="tns:LinkedDataWcfService_SaveToFile_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://MyLinkedDataCodes.com/wcf/LinkedDataWcfService/SaveToFileMySoapFaultFault" name="MySoapFaultFault" message="tns:LinkedDataWcfService_SaveToFile_MySoapFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="ExceuteQuery">
+      <wsdl:input wsaw:Action="http://MyLinkedDataCodes.com/wcf/LinkedDataWcfService/ExceuteQuery" message="tns:LinkedDataWcfService_ExceuteQuery_InputMessage" />
+      <wsdl:output wsaw:Action="http://MyLinkedDataCodes.com/wcf/LinkedDataWcfService/ExceuteQueryResponse" message="tns:LinkedDataWcfService_ExceuteQuery_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://MyLinkedDataCodes.com/wcf/LinkedDataWcfService/ExceuteQueryMySoapFaultFault" name="MySoapFaultFault" message="tns:LinkedDataWcfService_ExceuteQuery_MySoapFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="LoadDefaultDatasourceFile">
+      <wsdl:input wsaw:Action="http://MyLinkedDataCodes.com/wcf/LinkedDataWcfService/LoadDefaultDatasourceFile" message="tns:LinkedDataWcfService_LoadDefaultDatasourceFile_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="SetMyName">
+      <wsdl:input wsaw:Action="http://MyLinkedDataCodes.com/wcf/LinkedDataWcfService/SetMyName" message="tns:LinkedDataWcfService_SetMyName_InputMessage" />
+      <wsdl:output wsaw:Action="http://MyLinkedDataCodes.com/wcf/LinkedDataWcfService/SetMyNameResponse" message="tns:LinkedDataWcfService_SetMyName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="SayHello">
+      <wsdl:input wsaw:Action="http://MyLinkedDataCodes.com/wcf/LinkedDataWcfService/SayHello" message="tns:LinkedDataWcfService_SayHello_InputMessage" />
+      <wsdl:output wsaw:Action="http://MyLinkedDataCodes.com/wcf/LinkedDataWcfService/SayHelloResponse" message="tns:LinkedDataWcfService_SayHello_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

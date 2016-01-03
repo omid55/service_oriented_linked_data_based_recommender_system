@@ -1,0 +1,511 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">True</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="92881367-3F89-473D-B006-6F2CEB270072/d:Properties/f:AssemblyInfo.cs" caret="0" fromTop="0" />
+      <File id="4C262433-6960-418C-AE04-B316DCAC7EEA/f:Program.cs" caret="0" fromTop="0" />
+      <File id="92881367-3F89-473D-B006-6F2CEB270072/f:LinkedDataService.cs" caret="5351" fromTop="12" />
+      <File id="92881367-3F89-473D-B006-6F2CEB270072/f:ILinkedDataService.cs" caret="0" fromTop="0" />
+      <File id="6EEBE545-FE1A-4343-A00D-A60FF915D0E3/f:Program.cs" caret="383" fromTop="13" />
+      <File id="5B372284-25B5-4BBE-90F1-25E12E07EEA9/f:MyECModel.edmx" caret="10932" fromTop="17" />
+      <File id="5B372284-25B5-4BBE-90F1-25E12E07EEA9/f:MyECModel.Designer.cs" caret="2555" fromTop="18" />
+      <File id="C7EB62A3-0012-4237-BED7-2F1DE78C4E0C/d:Service References/d:ECommerceService/f:Reference.cs" caret="44325" fromTop="10" />
+      <File id="C7EB62A3-0012-4237-BED7-2F1DE78C4E0C/f:MainWindow.xaml" caret="1417" fromTop="1" />
+      <File id="C7EB62A3-0012-4237-BED7-2F1DE78C4E0C/f:MainWindow.xaml.cs" caret="4900" fromTop="0" />
+      <File id="5B372284-25B5-4BBE-90F1-25E12E07EEA9/f:IECommerceService.cs" caret="1075" fromTop="10" />
+      <File id="5B372284-25B5-4BBE-90F1-25E12E07EEA9/f:ECommerceService.cs" caret="6690" fromTop="9" />
+      <File id="6EEBE545-FE1A-4343-A00D-A60FF915D0E3/f:App.config" caret="0" fromTop="0" />
+      <File id="C7EB62A3-0012-4237-BED7-2F1DE78C4E0C/f:app.config" caret="572" fromTop="9" />
+      <File id="C7EB62A3-0012-4237-BED7-2F1DE78C4E0C/d:Service References/d:ECommerceService/f:configuration.svcinfo" caret="602" fromTop="4" />
+      <File id="C7EB62A3-0012-4237-BED7-2F1DE78C4E0C/d:Service References/d:ECommerceService/f:configuration91.svcinfo" caret="4227" fromTop="17" />
+      <File id="5B372284-25B5-4BBE-90F1-25E12E07EEA9/f:app.config" caret="470" fromTop="5" />
+      <File id="5B372284-25B5-4BBE-90F1-25E12E07EEA9/d:Service References/d:LinkedDataService/f:configuration.svcinfo" caret="602" fromTop="4" />
+      <File id="5B372284-25B5-4BBE-90F1-25E12E07EEA9/d:Service References/d:LinkedDataService/f:configuration91.svcinfo" caret="4233" fromTop="17" />
+      <File id="4C262433-6960-418C-AE04-B316DCAC7EEA/f:App.config" caret="0" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="5B372284-25B5-4BBE-90F1-25E12E07EEA9/f:ECommerceService.cs" caret="7305" fromTop="19" />
+      <File id="5B372284-25B5-4BBE-90F1-25E12E07EEA9/f:ECommerceService.cs" caret="8328" fromTop="31" />
+      <File id="5B372284-25B5-4BBE-90F1-25E12E07EEA9/f:ECommerceService.cs" caret="7907" fromTop="22" />
+      <File id="5B372284-25B5-4BBE-90F1-25E12E07EEA9/f:ECommerceService.cs" caret="8149" fromTop="27" />
+      <File id="5B372284-25B5-4BBE-90F1-25E12E07EEA9/f:ECommerceService.cs" caret="8423" fromTop="21" />
+      <File id="5B372284-25B5-4BBE-90F1-25E12E07EEA9/f:ECommerceService.cs" caret="8441" fromTop="22" />
+      <File id="5B372284-25B5-4BBE-90F1-25E12E07EEA9/f:ECommerceService.cs" caret="9285" fromTop="24" />
+      <File id="5B372284-25B5-4BBE-90F1-25E12E07EEA9/f:ECommerceService.cs" caret="9595" fromTop="3" />
+      <File id="5B372284-25B5-4BBE-90F1-25E12E07EEA9/f:ECommerceService.cs" caret="9613" fromTop="4" />
+      <File id="5B372284-25B5-4BBE-90F1-25E12E07EEA9/f:ECommerceService.cs" caret="13063" fromTop="25" />
+      <File id="5B372284-25B5-4BBE-90F1-25E12E07EEA9/f:ECommerceService.cs" caret="13463" fromTop="31" />
+      <File id="5B372284-25B5-4BBE-90F1-25E12E07EEA9/f:ECommerceService.cs" caret="13286" fromTop="22" />
+      <File id="5B372284-25B5-4BBE-90F1-25E12E07EEA9/f:ECommerceService.cs" caret="13576" fromTop="2" />
+      <File id="5B372284-25B5-4BBE-90F1-25E12E07EEA9/f:ECommerceService.cs" caret="13594" fromTop="3" />
+      <File id="5B372284-25B5-4BBE-90F1-25E12E07EEA9/f:ECommerceService.cs" caret="14702" fromTop="25" />
+      <File id="5B372284-25B5-4BBE-90F1-25E12E07EEA9/f:ECommerceService.cs" caret="14520" fromTop="27" />
+      <File id="5B372284-25B5-4BBE-90F1-25E12E07EEA9/f:IECommerceService.cs" caret="1950" fromTop="12" />
+      <File id="C7EB62A3-0012-4237-BED7-2F1DE78C4E0C/f:MainWindow.xaml.cs" caret="786" fromTop="8" />
+      <File id="C7EB62A3-0012-4237-BED7-2F1DE78C4E0C/f:MainWindow.xaml.cs" caret="804" fromTop="9" />
+      <File id="C7EB62A3-0012-4237-BED7-2F1DE78C4E0C/f:MainWindow.xaml.cs" caret="1251" fromTop="14" />
+      <File id="C7EB62A3-0012-4237-BED7-2F1DE78C4E0C/f:MainWindow.xaml.cs" caret="1889" fromTop="31" />
+      <File id="C7EB62A3-0012-4237-BED7-2F1DE78C4E0C/f:MainWindow.xaml.cs" caret="1237" fromTop="17" />
+      <File id="5B372284-25B5-4BBE-90F1-25E12E07EEA9/f:ECommerceService.cs" caret="8902" fromTop="9" />
+      <File id="5B372284-25B5-4BBE-90F1-25E12E07EEA9/f:ECommerceService.cs" caret="482" fromTop="16" />
+      <File id="5B372284-25B5-4BBE-90F1-25E12E07EEA9/f:IECommerceService.cs" caret="1738" fromTop="8" />
+      <File id="4C262433-6960-418C-AE04-B316DCAC7EEA/f:App.config" caret="276" fromTop="9" />
+      <File id="4C262433-6960-418C-AE04-B316DCAC7EEA/f:App.config" caret="661" fromTop="14" />
+      <File id="5B372284-25B5-4BBE-90F1-25E12E07EEA9/f:app.config" caret="523" fromTop="5" />
+      <File id="C7EB62A3-0012-4237-BED7-2F1DE78C4E0C/f:app.config" caret="646" fromTop="10" />
+      <File id="5B372284-25B5-4BBE-90F1-25E12E07EEA9/d:Service References/d:LinkedDataService/f:configuration91.svcinfo" caret="4251" fromTop="17" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="QueryTextBox" priority="0" />
+      <Item value="myGraph" priority="3" />
+      <Item value="private" priority="3" />
+      <Item value="string" priority="53" />
+      <Item value="switch" priority="1" />
+      <Item value="ModeComboBox" priority="0" />
+      <Item value="case" priority="1" />
+      <Item value="break" priority="1" />
+      <Item value="fileName" priority="2" />
+      <Item value="catch" priority="0" />
+      <Item value="Exception`0" priority="0" />
+      <Item value="MessageBox`0" priority="5" />
+      <Item value="ex" priority="4" />
+      <Item value="OK" priority="0" />
+      <Item value="try" priority="11" />
+      <Item value="subj" priority="0" />
+      <Item value="RdfXmlParserMode`0" priority="1" />
+      <Item value="RdfXmlParser`0" priority="0" />
+      <Item value="rdfXmlParser" priority="1" />
+      <Item value="InPlaceBitmapMetadataWriter`0" priority="0" />
+      <Item value="new" priority="28" />
+      <Item value="RdfXmlParser" priority="0" />
+      <Item value="Uri`0" priority="0" />
+      <Item value="public" priority="15" />
+      <Item value="void" priority="11" />
+      <Item value="NTriplesParser`0" priority="0" />
+      <Item value="object" priority="2" />
+      <Item value="SubClassSelector`0" priority="0" />
+      <Item value="addTriple`0" priority="0" />
+      <Item value="lang" priority="0" />
+      <Item value="language" priority="1" />
+      <Item value="ProductNameTextBox" priority="0" />
+      <Item value="productName" priority="2" />
+      <Item value="results" priority="20" />
+      <Item value="dataGrid1" priority="0" />
+      <Item value="dt" priority="2" />
+      <Item value="arr" priority="0" />
+      <Item value="class" priority="3" />
+      <Item value="ILinkedDataService`0" priority="0" />
+      <Item value="OperationContract" priority="18" />
+      <Item value="ServiceContract" priority="0" />
+      <Item value="IsInitiating" priority="0" />
+      <Item value="true" priority="2" />
+      <Item value="SessionMode`0" priority="3" />
+      <Item value="InstanceContextMode`0" priority="4" />
+      <Item value="InstanceContext`0" priority="0" />
+      <Item value="Name" priority="0" />
+      <Item value="Namespace" priority="0" />
+      <Item value="Graph" priority="0" />
+      <Item value="bool" priority="2" />
+      <Item value="enum" priority="1" />
+      <Item value="fileType" priority="1" />
+      <Item value="return" priority="14" />
+      <Item value="false" priority="1" />
+      <Item value="throw" priority="0" />
+      <Item value="FaultException" priority="1" />
+      <Item value="DataContract" priority="6" />
+      <Item value="DatasourceFileType`0" priority="1" />
+      <Item value="DataMember" priority="11" />
+      <Item value="MySoapFault`0" priority="7" />
+      <Item value="MySoapFault" priority="0" />
+      <Item value="fault" priority="5" />
+      <Item value="thr" priority="0" />
+      <Item value="FaultContract" priority="5" />
+      <Item value="typeof" priority="6" />
+      <Item value="res" priority="13" />
+      <Item value="List" priority="9" />
+      <Item value="SparqlQueryParser`0" priority="0" />
+      <Item value="IsOneWay" priority="0" />
+      <Item value="LoadDefaultDatasourceFile`0" priority="0" />
+      <Item value="LoadFromFile`0" priority="0" />
+      <Item value="Properties" priority="0" />
+      <Item value="Settings`0" priority="0" />
+      <Item value="Rdfxml" priority="0" />
+      <Item value="null" priority="2" />
+      <Item value="if" priority="1" />
+      <Item value="else" priority="0" />
+      <Item value="var" priority="10" />
+      <Item value="MyResults`0" priority="0" />
+      <Item value="myResults" priority="2" />
+      <Item value="MyResults" priority="0" />
+      <Item value="query" priority="3" />
+      <Item value="StylusPointPropertyUnit`0" priority="0" />
+      <Item value="LinkedDataService" priority="1" />
+      <Item value="LinkedDataWcfServiceClient`0" priority="1" />
+      <Item value="LinkedDataWcfServiceClient" priority="1" />
+      <Item value="proxy" priority="19" />
+      <Item value="String`0" priority="0" />
+      <Item value="name" priority="1" />
+      <Item value="using" priority="0" />
+      <Item value="host" priority="1" />
+      <Item value="ServiceHost" priority="0" />
+      <Item value="LinkedDataServiceLibrary" priority="0" />
+      <Item value="LinkedDataService`0" priority="0" />
+      <Item value="foreach" priority="9" />
+      <Item value="r" priority="0" />
+      <Item value="int" priority="12" />
+      <Item value="i" priority="4" />
+      <Item value="myName" priority="1" />
+      <Item value="str1" priority="0" />
+      <Item value="QueryResult`0" priority="0" />
+      <Item value="QueryResult" priority="0" />
+      <Item value="item" priority="0" />
+      <Item value="Count`1" priority="1" />
+      <Item value="ECommerceServiceLibrary" priority="0" />
+      <Item value="ECommerceService`0" priority="0" />
+      <Item value="ECommerceService" priority="1" />
+      <Item value="ECommerceServiceClient`0" priority="0" />
+      <Item value="result" priority="10" />
+      <Item value="linkedDataProxy" priority="3" />
+      <Item value="QuotaExceededException`0" priority="0" />
+      <Item value="queryResult" priority="2" />
+      <Item value="List&lt;string&gt;" priority="1" />
+      <Item value="for" priority="6" />
+      <Item value="productNames" priority="2" />
+      <Item value="Length" priority="7" />
+      <Item value="filters" priority="2" />
+      <Item value="prods" priority="1" />
+      <Item value="mode" priority="0" />
+      <Item value="ProductName" priority="1" />
+      <Item value="ServiceKnownType" priority="0" />
+      <Item value="type" priority="0" />
+      <Item value="EnumMember" priority="2" />
+      <Item value="Enum`0" priority="1" />
+      <Item value="OrderMode`0" priority="1" />
+      <Item value="from" priority="8" />
+      <Item value="MyECModelContainer`0" priority="0" />
+      <Item value="MyECModelContainer" priority="0" />
+      <Item value="entity" priority="19" />
+      <Item value="where" priority="4" />
+      <Item value="bestCustomer" priority="0" />
+      <Item value="personId" priority="1" />
+      <Item value="BestCustomerTbl`0" priority="0" />
+      <Item value="purchase" priority="6" />
+      <Item value="select" priority="5" />
+      <Item value="q" priority="1" />
+      <Item value="product" priority="3" />
+      <Item value="FindAllRelatives`0" priority="0" />
+      <Item value="purchasedProducts" priority="0" />
+      <Item value="relatives" priority="1" />
+      <Item value="Intersect`1" priority="1" />
+      <Item value="ad" priority="2" />
+      <Item value="nowAds" priority="1" />
+      <Item value="ValueType`0" priority="0" />
+      <Item value="suggestProducts" priority="0" />
+      <Item value="suggestProduct" priority="0" />
+      <Item value="ECommerceDBEntities`0" priority="0" />
+      <Item value="Int32`0" priority="0" />
+      <Item value="textBox1" priority="0" />
+      <Item value="FindRelatives`0" priority="0" />
+      <Item value="relativeProducts" priority="0" />
+      <Item value="ToArray`1" priority="0" />
+      <Item value="Contains`1" priority="1" />
+      <Item value="ids" priority="0" />
+      <Item value="PersonTextBox" priority="0" />
+      <Item value="ProductTextBox" priority="0" />
+      <Item value="const" priority="0" />
+      <Item value="double" priority="3" />
+      <Item value="CustomerTbl`0" priority="3" />
+      <Item value="EntityFunctions`0" priority="0" />
+      <Item value="DateTime`0" priority="0" />
+      <Item value="Math`0" priority="1" />
+      <Item value="as" priority="5" />
+      <Item value="BestCustomersTbl" priority="2" />
+      <Item value="customer" priority="2" />
+      <Item value="BestCustomersTbl`0" priority="0" />
+      <Item value="bc" priority="2" />
+      <Item value="ECDBEntities`0" priority="0" />
+      <Item value="AdsTbl`0" priority="2" />
+      <Item value="AdsTbl" priority="0" />
+      <Item value="SuggestPersons`0" priority="0" />
+      <Item value="FindBestCustomers`0" priority="0" />
+      <Item value="List&lt;int&gt;" priority="2" />
+      <Item value="bestPersons" priority="5" />
+      <Item value="NewsStyleUriParser`0" priority="0" />
+      <Item value="personsId" priority="1" />
+      <Item value="Int16`0" priority="0" />
+      <Item value="Except`1" priority="0" />
+      <Item value="AdsComboBox" priority="2" />
+      <Item value="in" priority="0" />
+      <Item value="ads" priority="0" />
+      <Item value="ResultDataGrid" priority="2" />
+      <Item value="suggestPersons" priority="2" />
+      <Item value="suggestPerson" priority="1" />
+      <Item value="List&lt;int[]&gt;" priority="0" />
+      <Item value="DataTable" priority="0" />
+      <Item value="DataRow" priority="1" />
+      <Item value="DataRow`0" priority="0" />
+      <Item value="dr" priority="0" />
+      <Item value="c" priority="7" />
+      <Item value="persons" priority="2" />
+      <Item value="clusterId" priority="2" />
+      <Item value="char" priority="1" />
+      <Item value="IQueryable`0" priority="2" />
+      <Item value="QueryCursorEvent" priority="0" />
+      <Item value="CustomerTbl" priority="2" />
+      <Item value="Union`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ComboBox">
+      <Item value="SelectedValue" priority="0" />
+      <Item value="SelectedIndex" priority="1" />
+      <Item value="ItemsSource" priority="0" />
+      <Item value="SelectedItem" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.MessageBox">
+      <Item value="Show`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Message" priority="2" />
+      <Item value="StackTrace" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@VDS.RDF.Parsing.RdfXmlParserMode">
+      <Item value="Streaming" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VDS.RDF.Parsing.RdfXmlParser">
+      <Item value="Load`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VDS.RDF.Graph">
+      <Item value="CreateUriNode`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.TextBox">
+      <Item value="Template" priority="0" />
+      <Item value="Text" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.DataGrid">
+      <Item value="ItemsSource" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VDS.RDF.Query.SparqlResultSet">
+      <Item value="AsEnumerable`1" priority="0" />
+      <Item value="GetEnumerator`0" priority="0" />
+      <Item value="AsQueryable`0" priority="0" />
+      <Item value="ToArray`1" priority="2" />
+      <Item value="Results" priority="9" />
+      <Item value="ToTripleCollection`0" priority="0" />
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataTable">
+      <Item value="DataSet" priority="0" />
+      <Item value="DefaultView" priority="1" />
+      <Item value="Rows" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VDS.RDF.Query.SparqlResult">
+      <Item value="ToString`0" priority="2" />
+      <Item value="Variables" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Substring`0" priority="2" />
+      <Item value="Any`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.ServiceModel.SessionMode">
+      <Item value="Required" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.ServiceModel.InstanceContextMode">
+      <Item value="PerSession" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@LinkedDataServiceLibrary.DatasourceFileType">
+      <Item value="Rdfxml" priority="0" />
+      <Item value="NTriples" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:LinkedDataServiceLibrary.MySoapFault">
+      <Item value="Operation" priority="0" />
+      <Item value="Reason" priority="0" />
+      <Item value="Details" priority="0" />
+      <Item value="MoreDetails" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@LinkedDataServiceLibrary.Properties.Settings">
+      <Item value="Default" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:LinkedDataServiceLibrary.Properties.Settings">
+      <Item value="DataSourceFilePath" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:LinkedDataServiceLibrary.MyResults">
+      <Item value="query" priority="0" />
+      <Item value="items" priority="2" />
+      <Item value="variables" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Indexer" priority="0" />
+      <Item value="Count" priority="0" />
+      <Item value="Add`0" priority="5" />
+      <Item value="ToArray`0" priority="2" />
+      <Item value="AddRange`0" priority="2" />
+      <Item value="Intersect`1" priority="0" />
+      <Item value="Except`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ECommerceLinkedDataClient.LinkedDataService.LinkedDataWcfServiceClient">
+      <Item value="Init`0" priority="0" />
+      <Item value="LoadDefaultDatasourceFile`0" priority="0" />
+      <Item value="ExceuteQuery`0" priority="0" />
+      <Item value="SayHello`0" priority="2" />
+      <Item value="SetMyName`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ECommerceLinkedDataClient.LinkedDataService.MyResults">
+      <Item value="ToString`0" priority="0" />
+      <Item value="items" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ServiceModel.ServiceHost">
+      <Item value="Open`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="All`1" priority="0" />
+      <Item value="ToArray`1" priority="2" />
+      <Item value="Except`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:LinkedDataServiceLibrary.QueryResult">
+      <Item value="variables" priority="0" />
+      <Item value="result" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ECommerceLinkedDataClient.LinkedDataService.QueryResult">
+      <Item value="result" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ECommerceServiceLibrary.LinkedDataService.MyResults">
+      <Item value="items" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ECommerceLinkedDataClient.ECommerceService.ECommerceServiceClient">
+      <Item value="Init`0" priority="0" />
+      <Item value="GiveMeCount`0" priority="0" />
+      <Item value="GetData`0" priority="0" />
+      <Item value="FindRelatives`0" priority="0" />
+      <Item value="FindAllRelatives`0" priority="0" />
+      <Item value="FindCategoryName`0" priority="0" />
+      <Item value="SuggestProducts`0" priority="0" />
+      <Item value="SuggestPersons`0" priority="0" />
+      <Item value="SuggestCustomersInTheirCluster`0" priority="0" />
+      <Item value="GetPersonsDetail`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ECommerceServiceLibrary.LinkedDataService.LinkedDataWcfServiceClient">
+      <Item value="ExceuteQuery`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ECommerceServiceLibrary.LinkedDataService.QueryResult">
+      <Item value="result" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ECommerceLinkedDataClient.ECommerceService.OrderMode">
+      <Item value="ProductName" priority="1" />
+      <Item value="SameCategory" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ECommerceServiceLibrary.MyECModelContainer">
+      <Item value="BestCustomerTbls" priority="0" />
+      <Item value="PurchaseTbls" priority="0" />
+      <Item value="AdsTbls" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ECommerceServiceLibrary.BestCustomerTbl">
+      <Item value="Cid" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ECommerceServiceLibrary.PurchaseTbl">
+      <Item value="Cid" priority="1" />
+      <Item value="ProductName" priority="2" />
+      <Item value="PurchaseId" priority="0" />
+      <Item value="Quantity" priority="0" />
+      <Item value="Date" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="ToArray`1" priority="5" />
+      <Item value="Distinct`1" priority="0" />
+      <Item value="ToList`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ECommerceServiceLibrary.AdsTbl">
+      <Item value="ProductName" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ECommerceServiceLibrary.OrderMode">
+      <Item value="SameCategory" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ECommerceServiceLibrary.ECommerceDBEntities">
+      <Item value="PurchaseTbls" priority="0" />
+      <Item value="CustomerTbls" priority="1" />
+      <Item value="BestCustomersTbls" priority="3" />
+      <Item value="AddToBestCustomersTbls`0" priority="1" />
+      <Item value="AcceptAllChanges`0" priority="0" />
+      <Item value="SaveChanges`0" priority="0" />
+      <Item value="DeleteObject`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Objects.ObjectSet`1">
+      <Item value="Count`1" priority="0" />
+      <Item value="OrderBy`0" priority="2" />
+      <Item value="ElementAt`1" priority="1" />
+      <Item value="First`1" priority="0" />
+      <Item value="AddObject`0" priority="2" />
+      <Item value="Select`0" priority="0" />
+      <Item value="Where`0" priority="0" />
+      <Item value="ToArray`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Data.Objects.EntityFunctions">
+      <Item value="DiffSeconds`0" priority="0" />
+      <Item value="DiffMinutes`0" priority="0" />
+      <Item value="DiffMonths`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Nullable`1">
+      <Item value="Value" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ECommerceServiceLibrary.CustomerTbl">
+      <Item value="LastLoginDate" priority="0" />
+      <Item value="Cid" priority="3" />
+      <Item value="Cname" priority="0" />
+      <Item value="Cfamily" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="0" />
+      <Item value="Today" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Math">
+      <Item value="Abs`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ECommerceServiceLibrary.BestCustomersTbl">
+      <Item value="ClusterId" priority="0" />
+      <Item value="Cid" priority="0" />
+      <Item value="CustomerTbl" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ECommerceServiceLibrary.ECDBEntities">
+      <Item value="SaveChanges`0" priority="0" />
+      <Item value="AdsTbls" priority="2" />
+      <Item value="CustomerTbls" priority="2" />
+      <Item value="ExecuteStoreCommand`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRowCollection">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ECommerceLinkedDataClient.ECommerceService.CustomerTbl">
+      <Item value="Cname" priority="1" />
+      <Item value="Cfamily" priority="1" />
+      <Item value="Age" priority="0" />
+      <Item value="Email" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

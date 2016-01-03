@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ECommerceService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="NetTcpBinding_IECommerceService_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1">
+        </msb:BinaryEncoding>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:WindowsTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                  <msf:ProtectionLevel>EncryptAndSign</msf:ProtectionLevel>
+                </msf:WindowsTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256>
+                </sp:Basic256>
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict>
+                </sp:Strict>
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing>
+        </wsaw:UsingAddressing>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/ECommerceServiceLibrary" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/System.Data" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IECommerceService_Init_InputMessage">
+    <wsdl:part name="parameters" element="tns:Init" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_Init_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InitResponse" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_Init_MySoapFaultFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/ECommerceServiceLibrary" name="detail" element="q1:MySoapFault" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_FindRelatives_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindRelatives" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_FindRelatives_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindRelativesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_FindRelatives_MySoapFaultFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/ECommerceServiceLibrary" name="detail" element="q2:MySoapFault" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_FindAllRelatives_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAllRelatives" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_FindAllRelatives_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAllRelativesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_FindAllRelatives_MySoapFaultFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/ECommerceServiceLibrary" name="detail" element="q3:MySoapFault" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_FindCategoryName_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindCategoryName" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_FindCategoryName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindCategoryNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_FindCategoryName_MySoapFaultFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.datacontract.org/2004/07/ECommerceServiceLibrary" name="detail" element="q4:MySoapFault" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_ListAds_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListAds" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_ListAds_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListAdsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_ListAds_MySoapFaultFault_FaultMessage">
+    <wsdl:part xmlns:q5="http://schemas.datacontract.org/2004/07/ECommerceServiceLibrary" name="detail" element="q5:MySoapFault" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_GetPersonsDetail_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPersonsDetail" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_GetPersonsDetail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPersonsDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_GetPersonsDetail_MySoapFaultFault_FaultMessage">
+    <wsdl:part xmlns:q6="http://schemas.datacontract.org/2004/07/ECommerceServiceLibrary" name="detail" element="q6:MySoapFault" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_SuggestProducts_InputMessage">
+    <wsdl:part name="parameters" element="tns:SuggestProducts" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_SuggestProducts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SuggestProductsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_SuggestProducts_MySoapFaultFault_FaultMessage">
+    <wsdl:part xmlns:q7="http://schemas.datacontract.org/2004/07/ECommerceServiceLibrary" name="detail" element="q7:MySoapFault" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_SuggestPersons_InputMessage">
+    <wsdl:part name="parameters" element="tns:SuggestPersons" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_SuggestPersons_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SuggestPersonsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_SuggestPersons_MySoapFaultFault_FaultMessage">
+    <wsdl:part xmlns:q8="http://schemas.datacontract.org/2004/07/ECommerceServiceLibrary" name="detail" element="q8:MySoapFault" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_FindBestCustomers_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindBestCustomers" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_FindBestCustomers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindBestCustomersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_FindBestCustomers_MySoapFaultFault_FaultMessage">
+    <wsdl:part xmlns:q9="http://schemas.datacontract.org/2004/07/ECommerceServiceLibrary" name="detail" element="q9:MySoapFault" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_SuggestCustomersInTheirCluster_InputMessage">
+    <wsdl:part name="parameters" element="tns:SuggestCustomersInTheirCluster" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_SuggestCustomersInTheirCluster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SuggestCustomersInTheirClusterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_SuggestCustomersInTheirCluster_MySoapFaultFault_FaultMessage">
+    <wsdl:part xmlns:q10="http://schemas.datacontract.org/2004/07/ECommerceServiceLibrary" name="detail" element="q10:MySoapFault" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_AdvertiseNow_InputMessage">
+    <wsdl:part name="parameters" element="tns:AdvertiseNow" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_AdvertiseNow_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AdvertiseNowResponse" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_GiveMeCount_InputMessage">
+    <wsdl:part name="parameters" element="tns:GiveMeCount" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_GiveMeCount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GiveMeCountResponse" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_GetData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetData" />
+  </wsdl:message>
+  <wsdl:message name="IECommerceService_GetData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataResponse" />
+  </wsdl:message>
+  <wsdl:portType msc:usingSession="true" name="IECommerceService">
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="Init">
+      <wsdl:input wsaw:Action="http://tempuri.org/IECommerceService/Init" message="tns:IECommerceService_Init_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IECommerceService/InitResponse" message="tns:IECommerceService_Init_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IECommerceService/InitMySoapFaultFault" name="MySoapFaultFault" message="tns:IECommerceService_Init_MySoapFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="FindRelatives">
+      <wsdl:input wsaw:Action="http://tempuri.org/IECommerceService/FindRelatives" message="tns:IECommerceService_FindRelatives_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IECommerceService/FindRelativesResponse" message="tns:IECommerceService_FindRelatives_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IECommerceService/FindRelativesMySoapFaultFault" name="MySoapFaultFault" message="tns:IECommerceService_FindRelatives_MySoapFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="FindAllRelatives">
+      <wsdl:input wsaw:Action="http://tempuri.org/IECommerceService/FindAllRelatives" message="tns:IECommerceService_FindAllRelatives_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IECommerceService/FindAllRelativesResponse" message="tns:IECommerceService_FindAllRelatives_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IECommerceService/FindAllRelativesMySoapFaultFault" name="MySoapFaultFault" message="tns:IECommerceService_FindAllRelatives_MySoapFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="FindCategoryName">
+      <wsdl:input wsaw:Action="http://tempuri.org/IECommerceService/FindCategoryName" message="tns:IECommerceService_FindCategoryName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IECommerceService/FindCategoryNameResponse" message="tns:IECommerceService_FindCategoryName_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IECommerceService/FindCategoryNameMySoapFaultFault" name="MySoapFaultFault" message="tns:IECommerceService_FindCategoryName_MySoapFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="ListAds">
+      <wsdl:input wsaw:Action="http://tempuri.org/IECommerceService/ListAds" message="tns:IECommerceService_ListAds_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IECommerceService/ListAdsResponse" message="tns:IECommerceService_ListAds_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IECommerceService/ListAdsMySoapFaultFault" name="MySoapFaultFault" message="tns:IECommerceService_ListAds_MySoapFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="GetPersonsDetail">
+      <wsdl:input wsaw:Action="http://tempuri.org/IECommerceService/GetPersonsDetail" message="tns:IECommerceService_GetPersonsDetail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IECommerceService/GetPersonsDetailResponse" message="tns:IECommerceService_GetPersonsDetail_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IECommerceService/GetPersonsDetailMySoapFaultFault" name="MySoapFaultFault" message="tns:IECommerceService_GetPersonsDetail_MySoapFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="SuggestProducts">
+      <wsdl:input wsaw:Action="http://tempuri.org/IECommerceService/SuggestProducts" message="tns:IECommerceService_SuggestProducts_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IECommerceService/SuggestProductsResponse" message="tns:IECommerceService_SuggestProducts_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IECommerceService/SuggestProductsMySoapFaultFault" name="MySoapFaultFault" message="tns:IECommerceService_SuggestProducts_MySoapFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="SuggestPersons">
+      <wsdl:input wsaw:Action="http://tempuri.org/IECommerceService/SuggestPersons" message="tns:IECommerceService_SuggestPersons_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IECommerceService/SuggestPersonsResponse" message="tns:IECommerceService_SuggestPersons_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IECommerceService/SuggestPersonsMySoapFaultFault" name="MySoapFaultFault" message="tns:IECommerceService_SuggestPersons_MySoapFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="FindBestCustomers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IECommerceService/FindBestCustomers" message="tns:IECommerceService_FindBestCustomers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IECommerceService/FindBestCustomersResponse" message="tns:IECommerceService_FindBestCustomers_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IECommerceService/FindBestCustomersMySoapFaultFault" name="MySoapFaultFault" message="tns:IECommerceService_FindBestCustomers_MySoapFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="SuggestCustomersInTheirCluster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IECommerceService/SuggestCustomersInTheirCluster" message="tns:IECommerceService_SuggestCustomersInTheirCluster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IECommerceService/SuggestCustomersInTheirClusterResponse" message="tns:IECommerceService_SuggestCustomersInTheirCluster_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IECommerceService/SuggestCustomersInTheirClusterMySoapFaultFault" name="MySoapFaultFault" message="tns:IECommerceService_SuggestCustomersInTheirCluster_MySoapFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="AdvertiseNow">
+      <wsdl:input wsaw:Action="http://tempuri.org/IECommerceService/AdvertiseNow" message="tns:IECommerceService_AdvertiseNow_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IECommerceService/AdvertiseNowResponse" message="tns:IECommerceService_AdvertiseNow_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="GiveMeCount">
+      <wsdl:input wsaw:Action="http://tempuri.org/IECommerceService/GiveMeCount" message="tns:IECommerceService_GiveMeCount_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IECommerceService/GiveMeCountResponse" message="tns:IECommerceService_GiveMeCount_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="GetData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IECommerceService/GetData" message="tns:IECommerceService_GetData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IECommerceService/GetDataResponse" message="tns:IECommerceService_GetData_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="NetTcpBinding_IECommerceService" type="tns:IECommerceService">
+    <wsp:PolicyReference URI="#NetTcpBinding_IECommerceService_policy">
+    </wsp:PolicyReference>
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="Init">
+      <soap12:operation soapAction="http://tempuri.org/IECommerceService/Init" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="MySoapFaultFault">
+        <soap12:fault use="literal" name="MySoapFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="FindRelatives">
+      <soap12:operation soapAction="http://tempuri.org/IECommerceService/FindRelatives" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="MySoapFaultFault">
+        <soap12:fault use="literal" name="MySoapFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="FindAllRelatives">
+      <soap12:operation soapAction="http://tempuri.org/IECommerceService/FindAllRelatives" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="MySoapFaultFault">
+        <soap12:fault use="literal" name="MySoapFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="FindCategoryName">
+      <soap12:operation soapAction="http://tempuri.org/IECommerceService/FindCategoryName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="MySoapFaultFault">
+        <soap12:fault use="literal" name="MySoapFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ListAds">
+      <soap12:operation soapAction="http://tempuri.org/IECommerceService/ListAds" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="MySoapFaultFault">
+        <soap12:fault use="literal" name="MySoapFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetPersonsDetail">
+      <soap12:operation soapAction="http://tempuri.org/IECommerceService/GetPersonsDetail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="MySoapFaultFault">
+        <soap12:fault use="literal" name="MySoapFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SuggestProducts">
+      <soap12:operation soapAction="http://tempuri.org/IECommerceService/SuggestProducts" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="MySoapFaultFault">
+        <soap12:fault use="literal" name="MySoapFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SuggestPersons">
+      <soap12:operation soapAction="http://tempuri.org/IECommerceService/SuggestPersons" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="MySoapFaultFault">
+        <soap12:fault use="literal" name="MySoapFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="FindBestCustomers">
+      <soap12:operation soapAction="http://tempuri.org/IECommerceService/FindBestCustomers" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="MySoapFaultFault">
+        <soap12:fault use="literal" name="MySoapFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SuggestCustomersInTheirCluster">
+      <soap12:operation soapAction="http://tempuri.org/IECommerceService/SuggestCustomersInTheirCluster" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="MySoapFaultFault">
+        <soap12:fault use="literal" name="MySoapFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="AdvertiseNow">
+      <soap12:operation soapAction="http://tempuri.org/IECommerceService/AdvertiseNow" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GiveMeCount">
+      <soap12:operation soapAction="http://tempuri.org/IECommerceService/GiveMeCount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetData">
+      <soap12:operation soapAction="http://tempuri.org/IECommerceService/GetData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ECommerceService">
+    <wsdl:port name="NetTcpBinding_IECommerceService" binding="tns:NetTcpBinding_IECommerceService">
+      <soap12:address location="net.tcp://localhost:9070/" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://localhost:9070/</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Upn>OMID55\SONY</Upn>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

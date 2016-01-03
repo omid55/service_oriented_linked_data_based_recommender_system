@@ -1,0 +1,351 @@
+<http://www.myproducts.com/Mobile> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1001> .
+<http://www.myproducts.com/Hands-free> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1001> .
+<http://www.myproducts.com/Car-Kit> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1001> .
+<http://www.myproducts.com/Cell-Phone-Bag> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1001> .
+<http://www.myproducts.com/SIM-Carde> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1001> .
+<http://www.myproducts.com/TV> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1002> .
+<http://www.myproducts.com/DVD-Recorder> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1002> .
+<http://www.myproducts.com/Stand-For-Television> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1002> .
+<http://www.myproducts.com/Television-Headphones> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1002> .
+<http://www.myproducts.com/Television-Antenna> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1002> .
+<http://www.myproducts.com/Category#1001> <http://www.myproducts.com/CategoryCodeOf> "Mobile Devices" .
+<http://www.myproducts.com/Category#1002> <http://www.myproducts.com/CategoryCodeOf> "\u0627\u062F\u0648\u0627\u062A \u062A\u0644\u0648\u06CC\u0632\u06CC\u0648\u0646"@fa .
+<http://www.myproducts.com/Memory-card> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1001> .
+<http://www.myproducts.com/Caver> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1001> .
+<http://www.myproducts.com/Microphone > <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1001> .
+<http://www.myproducts.com/Mobile-operator > <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1001> .
+<http://www.myproducts.com/Dictaphone > <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1001> .
+<http://www.myproducts.com/Telephone ring binder > <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1001> .
+<http://www.myproducts.com/Resiver> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1002> .
+<http://www.myproducts.com/HTMI-cable> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1002> .
+<http://www.myproducts.com/Flash-memory> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1002> .
+<http://www.myproducts.com/Video> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/ Category#1002> .
+<http://www.myproducts.com/Phone> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1001> .
+<http://www.myproducts.com/Desk phone> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1001> .
+
+<http://www.myproducts.com/Category#1003> <http://www.myproducts.com/CategoryCodeOf> "computer Devices" .
+<http://www.myproducts.com/Keyboard> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1003> .
+<http://www.myproducts.com/Antiviruse> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1003> .
+<http://www.myproducts.com/External modem> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1003> .
+<http://www.myproducts.com/Laptop> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1003> .
+<http://www.myproducts.com/Webcam> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1003> .
+<http://www.myproducts.com/Headset> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1003> .
+<http://www.myproducts.com/Micriphone> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1003> .
+<http://www.myproducts.com/Laptop-bag> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1003> .
+<http://www.myproducts.com/Flash-memory> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1003> .
+<http://www.myproducts.com/Printer> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1003> .
+<http://www.myproducts.com/Scaner> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1003> .
+<http://www.myproducts.com/Speaker> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1003> .
+<http://www.myproducts.com/Internet Subscription> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1003> .
+<http://www.myproducts.com/Notebook> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1003> .
+<http://www.myproducts.com/PDA> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1003> .
+<http://www.myproducts.com/Personal computer> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1003> .
+<http://www.myproducts.com/Computer system accessories> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1003> .
+<http://www.myproducts.com/Interface card> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1003> .
+<http://www.myproducts.com/Multimedia> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1003> .
+<http://www.myproducts.com/Telecommunication card> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1003> .
+<http://www.myproducts.com/Case> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1003> .
+<http://www.myproducts.com/Drive> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1003> .
+<http://www.myproducts.com/Mainboard> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1003> .
+<http://www.myproducts.com/Processor> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1003> .
+<http://www.myproducts.com/Case> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1003> .
+
+<http://www.myproducts.com/Category#1004> <http://www.myproducts.com/CategoryCodeOf> "Travel" .
+<http://www.myproducts.com/Travel-agancy> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1004> .
+<http://www.myproducts.com/Travel-guide> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1004> .
+<http://www.myproducts.com/Map> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1004> .
+<http://www.myproducts.com/Baggage> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1004> .
+<http://www.myproducts.com/Travel-insurance> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1004> .
+<http://www.myproducts.com/Backpack> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1004> .
+<http://www.myproducts.com/Traveling bag> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1004> .
+<http://www.myproducts.com/Exchange> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1004> .
+<http://www.myproducts.com/Airline> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1004> .
+<http://www.myproducts.com/Ticket> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1004> .
+<http://www.myproducts.com/Toure-guide> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1004> .
+<http://www.myproducts.com/Travel management> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1004> .
+<http://www.myproducts.com/Rail-journey> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1004> .
+<http://www.myproducts.com/Exchange> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1004> .
+<http://www.myproducts.com/Air-travel > <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1004> .
+<http://www.myproducts.com/Car-travel > <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1004> .
+<http://www.myproducts.com/Rental-vehicle > <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1004> .
+<http://www.myproducts.com/Hotel> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1004> .
+<http://www.myproducts.com/Inn> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1004> .
+<http://www.myproducts.com/Camping site> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1004> .
+<http://www.myproducts.com/Visa service> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1004> .
+<http://www.myproducts.com/Travel> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1004> .
+
+<http://www.myproducts.com/Category#1005> <http://www.myproducts.com/CategoryCodeOf> "Sport" .
+<http://www.myproducts.com/Sports shoe> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1005> .
+<http://www.myproducts.com/ball> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1005> .
+<http://www.myproducts.com/Ticket> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1005> .
+<http://www.myproducts.com/Competition> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1005> .
+<http://www.myproducts.com/Sports-Clothes> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1005> .
+<http://www.myproducts.com/Sports-magazine> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1005> .
+<http://www.myproducts.com/Sport-Class> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1005> .
+
+<http://www.myproducts.com/Category#1006> <http://www.myproducts.com/CategoryCodeOf> "Football" .
+<http://www.myproducts.com/Football-shoe> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1006> .
+<http://www.myproducts.com/Football-Competition> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1006> .
+<http://www.myproducts.com/Football-cloths> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1006> .
+<http://www.myproducts.com/Football-class> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1006> .
+
+<http://www.myproducts.com/Category#1007> <http://www.myproducts.com/CategoryCodeOf> "Swiming" .
+<http://www.myproducts.com/Swimsuit> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1006> .
+<http://www.myproducts.com/Swim-wear> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1006> .
+<http://www.myproducts.com/Swiming-accessories> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1006> .
+
+<http://www.myproducts.com/Category#1008> <http://www.myproducts.com/CategoryCodeOf> "Painting and drawing instrument" .
+<http://www.myproducts.com/artists-pen> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1008> .
+<http://www.myproducts.com/Calligraphy an penholder> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1008> .
+<http://www.myproducts.com/Indian-ink-fountain pen> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1008> .
+<http://www.myproducts.com/Graphic-marker> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1008> .
+<http://www.myproducts.com/Drawing-brush> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1008> .
+<http://www.myproducts.com/Drawing-coal and -crayon> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1008> .
+<http://www.myproducts.com/Drawing-plate> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1008> .
+<http://www.myproducts.com/Draw-eraser> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1008> .
+
+<http://www.myproducts.com/Category#1009> <http://www.myproducts.com/CategoryCodeOf> "Medicine, medical technology" .
+<http://www.myproducts.com/Medicine> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1009> .
+<http://www.myproducts.com/Surgical-tape> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1009> .
+<http://www.myproducts.com/Retention-compression> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1009> .
+<http://www.myproducts.com/Skin-substitute> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1009> .
+<http://www.myproducts.com/Vacuum-therapy> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1009> .
+<http://www.myproducts.com/Syringe> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1009> .
+<http://www.myproducts.com/Injection-system> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1009> .
+<http://www.myproducts.com/Blood-collecting tube> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1009> .
+<http://www.myproducts.com/Urologic-supplies> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1009> .
+<http://www.myproducts.com/Implant> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1009> .
+<http://www.myproducts.com/Radiologic-supplies> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1009> .
+<http://www.myproducts.com/Hemotherapy> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1009> .
+<http://www.myproducts.com/Therapy-device> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1009> .
+<http://www.myproducts.com/X-ray-radiation> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1009> .
+<http://www.myproducts.com/hospital> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1009> .
+<http://www.myproducts.com/Endoscope> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1009> .
+
+<http://www.myproducts.com/Category#1010> <http://www.myproducts.com/CategoryCodeOf> "Fruit" .
+<http://www.myproducts.com/Berry-fruit> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1010> .
+<http://www.myproducts.com/Apple> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1010> .
+<http://www.myproducts.com/Orange> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1010> .
+<http://www.myproducts.com/Citrus-fruit> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1010> .
+<http://www.myproducts.com/Drupe> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1010> .
+<http://www.myproducts.com/stone-fruit> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1010> .
+<http://www.myproducts.com/Pome-fruit> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1010> .
+<http://www.myproducts.com/Juice> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1010> .
+<http://www.myproducts.com/Cider> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1010> .
+<http://www.myproducts.com/Grape juice> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1010> .
+<http://www.myproducts.com/Orangeade> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1010> .
+<http://www.myproducts.com/Pomegranate Juice> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1010> .
+<http://www.myproducts.com/Orange Juice> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1010> .
+
+<http://www.myproducts.com/Category#1011> <http://www.myproducts.com/CategoryCodeOf> "Vegetable" .
+<http://www.myproducts.com/Lettuce> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1011> .
+<http://www.myproducts.com/Iceberg lettuce> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1011> .
+<http://www.myproducts.com/Endive> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1011> .
+<http://www.myproducts.com/Chicory> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1011> .
+<http://www.myproducts.com/Mache> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1011> .
+<http://www.myproducts.com/Spinach> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1011> .
+<http://www.myproducts.com/Celery> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1011> .
+<http://www.myproducts.com/Fennel> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1011> .
+<http://www.myproducts.com/Salad> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1011> .
+<http://www.myproducts.com/Broccoli> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1011> .
+<http://www.myproducts.com/Cabbage> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1011> .
+<http://www.myproducts.com/Carrot> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1011> .
+
+<http://www.myproducts.com/Category#1012> <http://www.myproducts.com/CategoryCodeOf> "Meat" .
+<http://www.myproducts.com/Beef> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1012> .
+<http://www.myproducts.com/Lamb> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1012> .
+<http://www.myproducts.com/Chicken> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1012> .
+<http://www.myproducts.com/Duck> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1012> .
+<http://www.myproducts.com/Turkey> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1012> .
+<http://www.myproducts.com/Quail> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1012> .
+<http://www.myproducts.com/Meat> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1012> .
+
+<http://www.myproducts.com/Category#1013> <http://www.myproducts.com/CategoryCodeOf> "Dairy product and egg" .
+<http://www.myproducts.com/Egg> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1013> .
+<http://www.myproducts.com/Butter> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1013> .
+<http://www.myproducts.com/Cheese> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1013> .
+<http://www.myproducts.com/Milk> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1013> .
+
+<http://www.myproducts.com/Category#1014> <http://www.myproducts.com/CategoryCodeOf> "Edible oil and fat" .
+<http://www.myproducts.com/plant-oil> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1014> .
+<http://www.myproducts.com/Anima-oil> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1014> .
+<http://www.myproducts.com/Olive-oil> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1014> .
+
+<http://www.myproducts.com/Category#1015> <http://www.myproducts.com/CategoryCodeOf> "Seafood" .
+<http://www.myproducts.com/Shellfish> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1015> .
+<http://www.myproducts.com/Aquatic-plant> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1015> .
+<http://www.myproducts.com/Seafood> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1015> .
+<http://www.myproducts.com/Fish> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1015> .
+
+<http://www.myproducts.com/Category#1016> <http://www.myproducts.com/CategoryCodeOf> "Beverage" .
+<http://www.myproducts.com/Non-alcoholic-beverage> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1016> .
+<http://www.myproducts.com/Orange-Juice> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1016> .
+<http://www.myproducts.com/Water> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1016> .
+<http://www.myproducts.com/Juice> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1016> .
+<http://www.myproducts.com/Cider> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1016> .
+
+<http://www.myproducts.com/Category#1017> <http://www.myproducts.com/CategoryCodeOf> "smoking product" .
+<http://www.myproducts.com/Cigarette> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1017> .
+<http://www.myproducts.com/Tobacco> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1017> .
+<http://www.myproducts.com/Pipe> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1017> .
+<http://www.myproducts.com/Hookah> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1017> .
+
+<http://www.myproducts.com/Category#1018> <http://www.myproducts.com/CategoryCodeOf> "Fast food" .
+<http://www.myproducts.com/Pizza> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1018> .
+<http://www.myproducts.com/Sandwich> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1018> .
+<http://www.myproducts.com/Hamburger> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1018> .
+<http://www.myproducts.com/Salad> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1018> .
+<http://www.myproducts.com/Drink> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1018> .
+<http://www.myproducts.com/Tomato sauce> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1018> .
+<http://www.myproducts.com/Chips> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1018> .
+<http://www.myproducts.com/Fastfood> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1018> .
+
+<http://www.myproducts.com/Category#1019> <http://www.myproducts.com/CategoryCodeOf> "Software" .
+<http://www.myproducts.com/Add-on-software> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1019> .
+<http://www.myproducts.com/Backup> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1019> .
+<http://www.myproducts.com/Programming-software> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1019> .
+<http://www.myproducts.com/Knowledge-and-learning-software> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1019> .
+<http://www.myproducts.com/Security-software> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1019> .
+<http://www.myproducts.com/Game-software> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1019> .
+<http://www.myproducts.com/Multimedia-software> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1019> .
+<http://www.myproducts.com/Engineering-software> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1019> .
+<http://www.myproducts.com/Software> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1019> .
+<http://www.myproducts.com/Office-application software> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1019> .
+<http://www.myproducts.com/Internet-software> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1019> .
+<http://www.myproducts.com/Software> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1019> .
+<http://www.myproducts.com/CD> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1019> .
+<http://www.myproducts.com/DVD> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1019> .
+
+<http://www.myproducts.com/Category#1020> <http://www.myproducts.com/CategoryCodeOf> "Home technology" .
+<http://www.myproducts.com/Home-technology> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1020> .
+<http://www.myproducts.com/Household-appliance> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1020> .
+<http://www.myproducts.com/Commercial-kitchen-appliance> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1020> .
+<http://www.myproducts.com/Dishes> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1020> .
+<http://www.myproducts.com/cutlery> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1020> .
+<http://www.myproducts.com/glassware> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1020> .
+<http://www.myproducts.com/Cleaning-agent> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1020> .
+<http://www.myproducts.com/Household-wash-textile> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1020> .
+<http://www.myproducts.com/Heating> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1020> .
+<http://www.myproducts.com/air-conditioning> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1020> .
+
+<http://www.myproducts.com/Category#1021> <http://www.myproducts.com/CategoryCodeOf> "basketball" .
+<http://www.myproducts.com/basketball-Competition> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1021> .
+<http://www.myproducts.com/basketball-cloths> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1021> .
+<http://www.myproducts.com/basketball-class> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1021> .
+
+<http://www.myproducts.com/Category#1022> <http://www.myproducts.com/CategoryCodeOf> "Volleyball" .
+<http://www.myproducts.com/Volleyball-Competition> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1022> .
+<http://www.myproducts.com/Volleyball-cloths> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1022> .
+<http://www.myproducts.com/Volleyball-class> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1022> .
+
+<http://www.myproducts.com/Category#1023> <http://www.myproducts.com/CategoryCodeOf> "Tennis" .
+<http://www.myproducts.com/Tennis-Competition> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1023> .
+<http://www.myproducts.com/Tennis-cloths> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1023> .
+<http://www.myproducts.com/Tennis-class> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1023> .
+<http://www.myproducts.com/Tennis-ball> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1023> .
+<http://www.myproducts.com/Tennis-Rocket> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1023> .
+
+<http://www.myproducts.com/Category#1024> <http://www.myproducts.com/CategoryCodeOf> "Writing instrument" .
+<http://www.myproducts.com/Pencil> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1024> .
+<http://www.myproducts.com/Mechanical pencil> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1024> .
+<http://www.myproducts.com/Fountain pen> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1024> .
+<http://www.myproducts.com/Marker> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1024> .
+<http://www.myproducts.com/Text marker, highlighter> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1024> .
+<http://www.myproducts.com/Sharpener> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1024> .
+<http://www.myproducts.com/Eraser instrument> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1024> .
+<http://www.myproducts.com/Pen> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1024> .
+
+<http://www.myproducts.com/Category#1025> <http://www.myproducts.com/CategoryCodeOf> "Book" .
+<http://www.myproducts.com/Book> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1025> .
+<http://www.myproducts.com/ebook> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1025> .
+<http://www.myproducts.com/Notebook> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1025> .
+<http://www.myproducts.com/Magazine> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1025> .
+<http://www.myproducts.com/Newspaper> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1025> .
+<http://www.myproducts.com/Paper> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1025> .
+<http://www.myproducts.com/Science-Fiction> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1025> .
+<http://www.myproducts.com/Article> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1025> .
+<http://www.myproducts.com/News> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1025> .
+<http://www.myproducts.com/Blog> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1025> .
+<http://www.myproducts.com/Ebook-reader> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1025> .
+
+<http://www.myproducts.com/Category#1026> <http://www.myproducts.com/CategoryCodeOf> "Home accessories" .
+<http://www.myproducts.com/Home-accessories> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1026> .
+<http://www.myproducts.com/Photo-frame> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1026> .
+<http://www.myproducts.com/Candlestick> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1026> .
+<http://www.myproducts.com/Candle> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1026> .
+<http://www.myproducts.com/Pot> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1026> .
+<http://www.myproducts.com/Artificial-flowers> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1026> .
+<http://www.myproducts.com/Clock> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1026> .
+
+<http://www.myproducts.com/Category#1027> <http://www.myproducts.com/CategoryCodeOf> "Furniture" .
+<http://www.myproducts.com/Furniture> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1027> .
+<http://www.myproducts.com/Sofa> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1027> .
+<http://www.myproducts.com/Chair> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1027> .
+<http://www.myproducts.com/Table> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1027> .
+<http://www.myproducts.com/Worktable> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1027> .
+<http://www.myproducts.com/Work-chairs> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1027> .
+<http://www.myproducts.com/Breakfast table> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1027> .
+<http://www.myproducts.com/Armchair> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1027> .
+<http://www.myproducts.com/Desk phone> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1027> .
+<http://www.myproducts.com/Chandelier> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1027> .
+<http://www.myproducts.com/Consoles> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1027> .
+
+<http://www.myproducts.com/Category#1028> <http://www.myproducts.com/CategoryCodeOf> "Cosmetics" .
+<http://www.myproducts.com/Lipstick> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1028> .
+<http://www.myproducts.com/Face Cream> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1028> .
+<http://www.myproducts.com/Hair-Gel> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1028> .
+<http://www.myproducts.com/Body-Lotion> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1028> .
+<http://www.myproducts.com/Makeup> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1028> .
+<http://www.myproducts.com/Sun-block> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1028> .
+<http://www.myproducts.com/Skin-care> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1028> .
+<http://www.myproducts.com/Cream> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1028> .
+
+<http://www.myproducts.com/Category#1029> <http://www.myproducts.com/CategoryCodeOf> "Electronic" .
+<http://www.myproducts.com/Chandelier> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1029> .
+<http://www.myproducts.com/Electronic-service> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1029> .
+<http://www.myproducts.com/Lamp> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1029> .
+<http://www.myproducts.com/Light> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1029> .
+<http://www.myproducts.com/Wire> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1029> .
+<http://www.myproducts.com/Battery> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1029> .
+<http://www.myproducts.com/Power supply> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1029> .
+<http://www.myproducts.com/Cornering> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1029> .
+
+<http://www.myproducts.com/Category#1030> <http://www.myproducts.com/CategoryCodeOf> "Tools" .
+<http://www.myproducts.com/Tools> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1030> .
+<http://www.myproducts.com/Toolbox > <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1030> .
+<http://www.myproducts.com/Wrench> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1030> .
+<http://www.myproducts.com/Screw> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1030> .
+<http://www.myproducts.com/Pliers > <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1030> .
+<http://www.myproducts.com/Peg> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1030> .
+<http://www.myproducts.com/Hammer> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1030> .
+<http://www.myproducts.com/Screwdriver> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1030> .
+
+<http://www.myproducts.com/Category#1031> <http://www.myproducts.com/CategoryCodeOf> "Sewing" .
+<http://www.myproducts.com/Cotton> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1031> .
+<http://www.myproducts.com/Needle> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1031> .
+<http://www.myproducts.com/Woolen> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1031> .
+<http://www.myproducts.com/Silk> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1031> .
+<http://www.myproducts.com/Scissors> <h1ttp://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1031> .
+<http://www.myproducts.com/Sewing> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1031> .
+
+<http://www.myproducts.com/Category#1032> <http://www.myproducts.com/CategoryCodeOf> "Menswear" .
+<http://www.myproducts.com/Menswear> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1032> .
+<http://www.myproducts.com/Pants> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1032> .
+<http://www.myproducts.com/Men's-Shoes> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1032> .
+<http://www.myproducts.com/Men's-Shirt> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1032> .
+<http://www.myproducts.com/Ascot> <h1ttp://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1032> .
+<http://www.myproducts.com/Hat> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1032> .
+<http://www.myproducts.com/Tshirt> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1032> .
+<http://www.myproducts.com/Jeans> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1032> .
+
+<http://www.myproducts.com/Category#1033> <http://www.myproducts.com/CategoryCodeOf> "Womenswear" .
+<http://www.myproducts.com/Dresses> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1033> .
+<http://www.myproducts.com/Pants> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1033> .
+<http://www.myproducts.com/Women's Shoes> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1033> .
+<http://www.myproducts.com/Women's Shirts> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1033> .
+<http://www.myproducts.com/Socks> <h1ttp://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1033> .
+<http://www.myproducts.com/Skirt> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1033> .
+<http://www.myproducts.com/Scarf> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1033> .
+<http://www.myproducts.com/Tshirt> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1033> .
+<http://www.myproducts.com/Jeans> <http://www.myproducts.com/InCategoryOf> <http://www.myproducts.com/Category#1033> .
+

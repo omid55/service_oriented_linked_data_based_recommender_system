@@ -1,0 +1,8 @@
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ECConsoleHost\bin\Debug\ECConsoleHost.exe.config
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ECConsoleHost\bin\Debug\ECConsoleHost.exe
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ECConsoleHost\bin\Debug\ECConsoleHost.pdb
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ECConsoleHost\bin\Debug\ECommerceServiceLibrary.dll
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ECConsoleHost\bin\Debug\ECommerceServiceLibrary.pdb
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ECConsoleHost\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ECConsoleHost\obj\x86\Debug\ECConsoleHost.exe
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ECConsoleHost\obj\x86\Debug\ECConsoleHost.pdb

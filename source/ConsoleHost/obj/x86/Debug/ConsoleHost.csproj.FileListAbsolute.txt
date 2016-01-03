@@ -1,0 +1,9 @@
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ConsoleHost\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ConsoleHost\bin\Debug\ConsoleHost.exe.config
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ConsoleHost\bin\Debug\ConsoleHost.exe
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ConsoleHost\bin\Debug\ConsoleHost.pdb
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ConsoleHost\bin\Debug\LinkedDataServiceLibrary.dll
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ConsoleHost\bin\Debug\dotNetRDF.dll
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ConsoleHost\bin\Debug\LinkedDataServiceLibrary.pdb
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ConsoleHost\obj\x86\Debug\ConsoleHost.exe
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ConsoleHost\obj\x86\Debug\ConsoleHost.pdb

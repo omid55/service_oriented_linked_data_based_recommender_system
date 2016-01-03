@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ECommerceDBModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="ECDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AdsTbls" EntityType="ECommerceDBModel.AdsTbl" />
+    <EntitySet Name="BestCustomersTbls" EntityType="ECommerceDBModel.BestCustomersTbl" />
+    <EntitySet Name="CustomerTbls" EntityType="ECommerceDBModel.CustomerTbl" />
+    <EntitySet Name="PurchaseTbls" EntityType="ECommerceDBModel.PurchaseTbl" />
+    <EntitySet Name="sysdiagrams" EntityType="ECommerceDBModel.sysdiagram" />
+    <AssociationSet Name="FK_BestCustomersTbls_CustomerTbls" Association="ECommerceDBModel.FK_BestCustomersTbls_CustomerTbls">
+      <End Role="CustomerTbls" EntitySet="CustomerTbls" />
+      <End Role="BestCustomersTbls" EntitySet="BestCustomersTbls" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PurchaseTbls_CustomerTbls" Association="ECommerceDBModel.FK_PurchaseTbls_CustomerTbls">
+      <End Role="CustomerTbls" EntitySet="CustomerTbls" />
+      <End Role="PurchaseTbls" EntitySet="PurchaseTbls" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="AdsTbl">
+    <Key>
+      <PropertyRef Name="AId" />
+    </Key>
+    <Property Name="AId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductName" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="BestCustomersTbl">
+    <Key>
+      <PropertyRef Name="Cid" />
+      <PropertyRef Name="ClusterId" />
+    </Key>
+    <Property Name="Cid" Type="Int32" Nullable="false" />
+    <Property Name="ClusterId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="CustomerTbl" Relationship="ECommerceDBModel.FK_BestCustomersTbls_CustomerTbls" FromRole="BestCustomersTbls" ToRole="CustomerTbls" />
+  </EntityType>
+  <EntityType Name="CustomerTbl">
+    <Key>
+      <PropertyRef Name="Cid" />
+    </Key>
+    <Property Name="Cid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Cname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Cfamily" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Age" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="NumberOfPurchases" Type="Int32" />
+    <Property Name="LoggedInDuration" Type="Int32" />
+    <Property Name="NumberOfLogins" Type="Int32" />
+    <Property Name="LastLoginDate" Type="DateTime" />
+    <Property Name="LastPurchaseDate" Type="DateTime" />
+    <NavigationProperty Name="BestCustomersTbls" Relationship="ECommerceDBModel.FK_BestCustomersTbls_CustomerTbls" FromRole="CustomerTbls" ToRole="BestCustomersTbls" />
+    <NavigationProperty Name="PurchaseTbls" Relationship="ECommerceDBModel.FK_PurchaseTbls_CustomerTbls" FromRole="CustomerTbls" ToRole="PurchaseTbls" />
+  </EntityType>
+  <EntityType Name="PurchaseTbl">
+    <Key>
+      <PropertyRef Name="PurchaseId" />
+    </Key>
+    <Property Name="PurchaseId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Cid" Type="Int32" Nullable="false" />
+    <Property Name="ProductName" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Date" Type="DateTime" />
+    <Property Name="Quantity" Type="Decimal" Precision="18" Scale="0" />
+    <NavigationProperty Name="CustomerTbl" Relationship="ECommerceDBModel.FK_PurchaseTbls_CustomerTbls" FromRole="PurchaseTbls" ToRole="CustomerTbls" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_BestCustomersTbls_CustomerTbls">
+    <End Role="CustomerTbls" Type="ECommerceDBModel.CustomerTbl" Multiplicity="1" />
+    <End Role="BestCustomersTbls" Type="ECommerceDBModel.BestCustomersTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CustomerTbls">
+        <PropertyRef Name="Cid" />
+      </Principal>
+      <Dependent Role="BestCustomersTbls">
+        <PropertyRef Name="Cid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PurchaseTbls_CustomerTbls">
+    <End Role="CustomerTbls" Type="ECommerceDBModel.CustomerTbl" Multiplicity="1" />
+    <End Role="PurchaseTbls" Type="ECommerceDBModel.PurchaseTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CustomerTbls">
+        <PropertyRef Name="Cid" />
+      </Principal>
+      <Dependent Role="PurchaseTbls">
+        <PropertyRef Name="Cid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

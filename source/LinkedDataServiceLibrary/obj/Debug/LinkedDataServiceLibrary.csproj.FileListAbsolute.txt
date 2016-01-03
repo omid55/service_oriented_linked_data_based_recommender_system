@@ -1,0 +1,6 @@
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\LinkedDataServiceLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\LinkedDataServiceLibrary\bin\Debug\LinkedDataServiceLibrary.dll.config
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\LinkedDataServiceLibrary\bin\Debug\LinkedDataServiceLibrary.dll
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\LinkedDataServiceLibrary\bin\Debug\LinkedDataServiceLibrary.pdb
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\LinkedDataServiceLibrary\obj\Debug\LinkedDataServiceLibrary.dll
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\LinkedDataServiceLibrary\obj\Debug\LinkedDataServiceLibrary.pdb

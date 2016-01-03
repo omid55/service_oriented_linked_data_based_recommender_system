@@ -1,0 +1,2003 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rdf:RDF[
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
+]>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:ns0="http://www.myproducts.com/">
+	<rdf:Description rdf:about="http://www.myproducts.com/Addiction">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1009" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Add-on-software">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1019" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/air-conditioning">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1020" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Airline">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Air-travel">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Anima-oil">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1014" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Antiviruse">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Apple">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1010" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Aquatic-plant">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1015" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Armchair">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1027" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Article">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1025" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Artificial-flowers">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1026" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/artists-pen">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1008" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Ascot">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1032" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Backpack">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Backup">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1019" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Baggage">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/ball">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1005" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/basketball-class">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1021" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/basketball-cloths">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1021" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/basketball-Competition">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1021" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Battery">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1029" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Beauty">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1009" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Beef">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1012" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Berry-fruit">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1010" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Blog">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1025" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Blood">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1009" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Body-Lotion">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1028" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Book">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1025" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Breakfast-table">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1027" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Broccoli">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1011" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Butter">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1013" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Cabbage">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1011" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Calligraphy-an-penholder">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1008" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Camping-site">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Candle">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1026" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Candlestick">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1026" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Car-Kit">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1001" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Carrot">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1011" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Car-travel">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Case">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1001">
+		<ns0:CategoryCodeOf>Mobile Devices</ns0:CategoryCodeOf>
+		<ns0:CategoryCodeOf xml:lang="fa">موبايل</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1002">
+		<ns0:CategoryCodeOf>Television</ns0:CategoryCodeOf>
+		<ns0:CategoryCodeOf xml:lang="fa">ادوات تلویزیون</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1003">
+		<ns0:CategoryCodeOf>computer Devices</ns0:CategoryCodeOf>
+		<ns0:CategoryCodeOf>لوازم -کامپیوتر@fa</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1004">
+		<ns0:CategoryCodeOf>Travel</ns0:CategoryCodeOf>
+		<ns0:CategoryCodeOf xml:lang="fa">مسافرت</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1005">
+		<ns0:CategoryCodeOf>Sport</ns0:CategoryCodeOf>
+		<ns0:CategoryCodeOf xml:lang="fa">ورزش</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1006">
+		<ns0:CategoryCodeOf>Football</ns0:CategoryCodeOf>
+		<ns0:CategoryCodeOf xml:lang="fa">فوتبال</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1007">
+		<ns0:CategoryCodeOf>Swiming</ns0:CategoryCodeOf>
+		<ns0:CategoryCodeOf xml:lang="fa">شنا</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1008">
+		<ns0:CategoryCodeOf>Painting and drawing instrument</ns0:CategoryCodeOf>
+		<ns0:CategoryCodeOf xml:lang="fa">نقاشی</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1009">
+		<ns0:CategoryCodeOf>Medicine</ns0:CategoryCodeOf>
+		<ns0:CategoryCodeOf xml:lang="fa">دارو</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1010">
+		<ns0:CategoryCodeOf>Fruit</ns0:CategoryCodeOf>
+		<ns0:CategoryCodeOf xml:lang="fa">میوه</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1011">
+		<ns0:CategoryCodeOf>Vegetable</ns0:CategoryCodeOf>
+		<ns0:CategoryCodeOf xml:lang="fa">سبزیجات</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1012">
+		<ns0:CategoryCodeOf>Meat</ns0:CategoryCodeOf>
+		<ns0:CategoryCodeOf xml:lang="fa">گوشت</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1013">
+		<ns0:CategoryCodeOf>Dairy-product-and-egg</ns0:CategoryCodeOf>
+		<ns0:CategoryCodeOf xml:lang="fa">لبنیات</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1014">
+		<ns0:CategoryCodeOf>Edible-oil-fat</ns0:CategoryCodeOf>
+		<ns0:CategoryCodeOf xml:lang="fa">روغن</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1015">
+		<ns0:CategoryCodeOf>Seafood</ns0:CategoryCodeOf>
+		<ns0:CategoryCodeOf xml:lang="fa">دریایی</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1016">
+		<ns0:CategoryCodeOf>Beverage</ns0:CategoryCodeOf>
+		<ns0:CategoryCodeOf xml:lang="fa">آشامیدنی</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1017">
+		<ns0:CategoryCodeOf>smoking product</ns0:CategoryCodeOf>
+		<ns0:CategoryCodeOf xml:lang="fa">دخانیات</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1018">
+		<ns0:CategoryCodeOf>Fast-food</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1019">
+		<ns0:CategoryCodeOf>Software</ns0:CategoryCodeOf>
+		<ns0:CategoryCodeOf xml:lang="fa">نرم-افزار</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1020">
+		<ns0:CategoryCodeOf>Home-technology</ns0:CategoryCodeOf>
+		<ns0:CategoryCodeOf xml:lang="fa">لوازم-خانگی</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1021">
+		<ns0:CategoryCodeOf>basketball</ns0:CategoryCodeOf>
+		<ns0:CategoryCodeOf xml:lang="fa">بسکبال</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1022">
+		<ns0:CategoryCodeOf>Volleyball</ns0:CategoryCodeOf>
+		<ns0:CategoryCodeOf xml:lang="fa">والیبال</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1023">
+		<ns0:CategoryCodeOf>Tennis</ns0:CategoryCodeOf>
+		<ns0:CategoryCodeOf xml:lang="fa">تنیس</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1024">
+		<ns0:CategoryCodeOf>Writing-instrument</ns0:CategoryCodeOf>
+		<ns0:CategoryCodeOf xml:lang="fa">نوشت-افزار</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1025">
+		<ns0:CategoryCodeOf>Book</ns0:CategoryCodeOf>
+		<ns0:CategoryCodeOf xml:lang="fa">خواندنی</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1026">
+		<ns0:CategoryCodeOf>Home accessories</ns0:CategoryCodeOf>
+		<ns0:CategoryCodeOf>تزئینات@fa</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1027">
+		<ns0:CategoryCodeOf>Furniture</ns0:CategoryCodeOf>
+		<ns0:CategoryCodeOf xml:lang="fa">مبلمان</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1028">
+		<ns0:CategoryCodeOf>Cosmetics</ns0:CategoryCodeOf>
+		<ns0:CategoryCodeOf xml:lang="fa">لوازم-آرایش</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1029">
+		<ns0:CategoryCodeOf>Electronic</ns0:CategoryCodeOf>
+		<ns0:CategoryCodeOf xml:lang="fa">لوازم-الکتیریکی</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1030">
+		<ns0:CategoryCodeOf>Tools</ns0:CategoryCodeOf>
+		<ns0:CategoryCodeOf xml:lang="fa">ابزار</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1031">
+		<ns0:CategoryCodeOf>Sewing</ns0:CategoryCodeOf>
+		<ns0:CategoryCodeOf xml:lang="fa">خیاطی</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1032">
+		<ns0:CategoryCodeOf>Menswear</ns0:CategoryCodeOf>
+		<ns0:CategoryCodeOf xml:lang="fa">لباس-مردانه</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1033">
+		<ns0:CategoryCodeOf>Womenswear</ns0:CategoryCodeOf>
+		<ns0:CategoryCodeOf xml:lang="fa">لباس-زنانه</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1034">
+		<ns0:CategoryCodeOf xml:lang="fa">لوازم-برقی</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1035">
+		<ns0:CategoryCodeOf xml:lang="fa">اسباب-بازی</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Category#1036">
+		<ns0:CategoryCodeOf xml:lang="fa">بدلیجات-زیورآلات</ns0:CategoryCodeOf>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Caver">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1001" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/CD">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1019" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/CD-موسیقی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1019" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Celery">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1011" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Cell-Phone-Bag">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1001" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Chair">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1027" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Chandelier">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1027" />
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1029" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Cheese">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1013" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Chicken">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1012" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Chicory">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1011" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Chips">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1018" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Cider">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1010" />
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1016" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Cigarette">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1017" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Citrus-fruit">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1010" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Cleaning-agent">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1020" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Clock">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1026" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Commercial-kitchen-appliance">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1020" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Competition">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1005" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Computer-system-accessories">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Consoles">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1027" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Cornering">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1029" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Cotton">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1031" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Cream">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1028" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/cutlery">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1020" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Desk phone">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1001" />
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1027" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Dictaphone">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1001" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Dishes">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1020" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Draw-eraser">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1008" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Drawing-brush">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1008" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Drawing-coal and -crayon">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1008" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Drawing-plate">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1008" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Dresses">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1033" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Drink">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1018" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Drive">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Drupe">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1010" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Duck">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1012" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/DVD">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1019" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/DVD-Recorder">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1002" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/ebook">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1025" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Ebook-reader">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1025" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Egg">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1013" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Electronic-service">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1029" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Endive">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1011" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Engineering-software">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1019" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Eraser-instrument">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1024" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Exchange">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/External-modem">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Face Cream">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1028" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Fastfood">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1018" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Fennel">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1011" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Fish">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1015" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Flash-memory">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1002" />
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Football-class">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1006" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Football-cloths">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1006" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Football-Competition">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1006" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Football-shoe">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1006" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Fountain-pen">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1024" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Furniture">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1027" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Game-software">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1019" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/glassware">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1020" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Grape-juice">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1010" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Graphic-marker">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1008" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Hair-Gel">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1028" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Hamburger">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1018" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Hammer">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1030" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Hands-free">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1001" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Hat">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1032" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Headset">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Heating">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1020" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Hemotherapy">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1009" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Home-accessories">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1026" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Home-technology">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1020" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Hookah">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1017" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/hospital">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1009" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Hotel">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Household-appliance">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1020" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Household-wash-textile">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1020" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/HTMI-cable">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1002" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Iceberg-lettuce">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1011" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Implant">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1009" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Indian-ink-fountain pen">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1008" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Injection-system">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1009" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Inn">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Interface-card">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Internet-software">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1019" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Internet-Subscription">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Jeans">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1032" />
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1033" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Juice">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1010" />
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1016" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Keyboard">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Knowledge-and-learning-software">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1019" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Lamb">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1012" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Lamp">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1029" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Laptop">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Laptop-bag">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/lego">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1035" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Lettuce">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1011" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Light">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1029" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Lipstick">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1028" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Mache">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1011" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Magazine">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1025" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Mainboard">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Makeup">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1028" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Map">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Marker">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1024" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Marker-highlighter">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1024" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Meat">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1012" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Mechanical pencil">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1024" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Medicine">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1009" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Memory-card">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1001" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Men's-Shirt">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1032" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Men's-Shoes">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1032" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Menswear">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1032" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Micriphone">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Microphone">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1001" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Milk">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1013" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Mobile">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1001" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Mobile-operator">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1001" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Mp3">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Mp4">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Multimedia">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Multimedia-software">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1019" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Needle">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1031" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/News">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1025" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Newspaper">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1025" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Non-alcoholic-beverage">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1016" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Notebook">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1025" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Office-application software">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1019" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Olive-oil">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1014" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Orange">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1010" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Orange Juice">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1010" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Orangeade">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1010" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Orange-Juice">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1016" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Pants">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1032" />
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1033" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Paper">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1025" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/PDA">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Peg">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1030" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Pen">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1024" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Pencil">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1024" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Personal-computer">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Phone">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1001" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Photo-frame">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1026" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Pipe">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1017" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Pizza">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1018" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/plant-oil">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1014" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Pliers">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1030" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Pome-fruit">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1010" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Pomegranate-Juice">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1010" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/pool">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1006" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Pot">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1026" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Power-supply">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1029" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Printer">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Processor">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Programming-software">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1019" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Quail">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1012" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Radiologic-supplies">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1009" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Rail-journey">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Rental-vehicle">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Resiver">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1002" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Salad">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1011" />
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1018" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Sandwich">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1018" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Scaner">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Scarf">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1033" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Science-Fiction">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1025" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Scissors">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1031" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Screw">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1030" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Screwdriver">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1030" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Seafood">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1015" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Security-software">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1019" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Sedative">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1009" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Sewing">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1031" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Sharpener">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1024" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Shellfish">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1015" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Silk">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1031" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/SIM-Carde">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1001" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Skin-care">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1028" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Skin-substitute">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1009" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Skirt">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1033" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Slimming-Pills">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1009" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Socks">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1033" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Sofa">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1027" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Software">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1019" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Speaker">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Spinach">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1011" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Sport-Class">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1005" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Sports shoe">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1005" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Sports-Clothes">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1005" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Sports-magazine">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1005" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Stand-For-Television">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1002" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/stone-fruit">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1010" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Sun-block">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1028" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Swiming">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1006" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Swiming-accessories">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1006" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Swimsuit">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1006" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Swim-wear">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1006" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Syringe">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1009" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Table">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1027" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Telecommunication-card">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Telephone ring binder">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1001" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Television-Antenna">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1002" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Television-Headphones">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1002" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Tennis-ball">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1023" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Tennis-class">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1023" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Tennis-cloths">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1023" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Tennis-Competition">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1023" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Tennis-Rocket">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1023" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Therapy-device">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1009" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Ticket">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1005" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Tobacco">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1017" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Tomato-sauce">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1018" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Toolbox">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1030" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Tools">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1030" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Toure-guide">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Travel">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Travel management">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Travel-agancy">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Travel-guide">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Traveling bag">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Travel-insurance">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Tshirt">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1032" />
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1033" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Turkey">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1012" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/TV">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1002" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Video">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/ Category#1002" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Visa-service">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Vitamin">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1009" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Volleyball-class">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1022" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Volleyball-cloths">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1022" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Volleyball-Competition">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1022" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Water">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1016" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Webcam">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Wire">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1029" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Women's-Shirts">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1033" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Women's-Shoes">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1033" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Woolen">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1031" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Work-chairs">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1027" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Worktable">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1027" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/Wrench">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1030" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/X-ray-radiation">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1009" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/آب">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1016" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/آب-انگور">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1010" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/آب-پرتقال">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1010" />
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1016" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/ابرنگ">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1008" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/ابریشم">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1031" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/ابزار">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1030" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/آب-سیب">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1010" />
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1016" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/آب-میوه">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1010" />
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1016" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/اپراتور">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1001" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/اتود">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1024" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/اجاره-ماشین">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/آچار">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1030" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/ادکلن">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1028" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/آرام-بخش">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1009" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/آرایش-صورت">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1028" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/آرایشگاه">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1028" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/آرایش-مو">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1028" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/آرایش-ناخن">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1028" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/اردک">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1012" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/آژانس-مسافرتی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/اسپری-پنچرگیری">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1030" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/اسپیکر">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/استخر">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1006" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/اسفناج">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1011" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/اسکنر">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/اسکوتر">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1005" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/اسکیت">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1005" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/آشپزخانه-صنعتی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1020" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/اشتراک-اینترنت">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/النگو">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1036" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/امنیت">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1019" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/آناناس">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1010" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/انبر">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1030" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/انبه">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1010" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/آنتن">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1002" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/آنتی-ویروس">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/انگشتر">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1036" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/ایمپلنت">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1009" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/آینه">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1028" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/باربی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1035" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/بازی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1019" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/بازی-فکری">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1035" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/باطری">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1029" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/بخارشور">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1034" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/بدلیجات">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1036" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/برنامه-نویسی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1019" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/بروکلی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1011" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/بشقاب">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1020" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/بلدرچین">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1012" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/بلیط">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/بلیط-مسابقه">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1005" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/بند-موبایل">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1001" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/بهداشت-کودک">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1028" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/بوم">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1008" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/بیمارستان">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1009" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/بیمه-مسافرتی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/پابند">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1036" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/پازل">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1035" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/پاستل">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1008" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/پاک-کن">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1008" />
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1024" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/پرتقال">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1010" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/پردازنده">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/پرینتر">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/پشم">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1031" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/پنیر">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1013" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/پوست">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1009" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/پیپ">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1017" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/پیتزا">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1018" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/پیچ">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1030" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/پیچ-گوشتی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1030" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/پی-دی-ای">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/پیراهن-زنانه">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1033" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/پیراهن-مردانه">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1032" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/تجهیزات-اتومبیلی-موبایل">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1001" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/تجهیزات-کامپیوتر">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/تجهیزات-ورزشی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1005" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/تخم-مرغ">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1013" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/تراپی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1009" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/ترازو-دیجیتال">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1020" />
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1034" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/ترک-اعتیاد">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1009" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/تزریقات">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1009" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/تزئینات">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1026" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/تلفن">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1001" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/تلوزیون">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1002" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/تمیزکاری">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1020" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/تنباکو">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1017" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/توپ">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1005" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/توپ-تنیس">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1023" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/توت">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1010" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/تی-شرت">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1032" />
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1033" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/جارو-شارژی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1034" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/جا-کفشی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1027" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/جامدادی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1008" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/جعبه-ابزار">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1030" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/جوجه">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1012" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/جوراب">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1033" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/جین">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1032" />
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1033" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/چایی-ساز">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1034" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/چراغ">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1029" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/چرخ-خیاطی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1031" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/چکش">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1030" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/چمدان">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/حلزون">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1015" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/حیوانات">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1035" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/خامه">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1013" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/خبر">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1025" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/خدمات-الکتریک">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1029" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/خدمات-اینترنت">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/خدمات-ویزا">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/خط-کش">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1008" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/خط-هواپیمایی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/خودکار">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1024" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/خودنویس">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1024" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/خون">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1009" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/خیار">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1010" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/دارو">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1009" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/دامن">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1033" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/دراور">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1027" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/درایو">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/دریایی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1015" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/دریل">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1030" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/دستبند">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1036" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/دستگاه-بدنسازی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1005" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/دستگاه-ضبط-صوت">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1001" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/دسته-بازی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/دفتر">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1008" />
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1024" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/دفتر-نقاشی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1008" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/دوغ">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1013" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/دیویدی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1002" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/رادیولوژی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1009" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/رازیانه">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1011" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/راکت-تنیس">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1023" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/راهنمای -مسافرت">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/راهنمای-تور">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/رسیور">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1002" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/رنگ">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1008" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/رنگ-مو">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1028" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/روان-نویسی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1024" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/روزنامه">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1025" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/روسری">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1033" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/روغن">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1008" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/روغن_حیوانی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1014" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/روغن-زیتون">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1014" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/روغن-گیاهی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1014" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/رومیزییواری">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1026" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/ریش-تراش">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1028" />
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1034" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/زیبایی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1009" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/زیرتلوزیونی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1002" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/ژل-سر">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1028" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/ساعت-دیواری">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1026" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/ساعت-مچی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1036" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/ساک">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/سالاد">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1011" />
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1018" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/ساندویچ">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1018" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/سرپیچ">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1029" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/سرمایش">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1020" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/سرنگ">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1009" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/سس-گوجه">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1018" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/سشوار">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1034" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/سفر-ریلی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/سفر-زمینی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/سفر-هوایی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/سنجاق-سینه">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1036" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/سه-پایه">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1008" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/سوزن">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1031" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/سیب">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1010" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/سیب-زمینی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1018" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/سیگار">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1017" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/سیم">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1029" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/سيم-کارت">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1001" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/شاسی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1008" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/شال-گردن">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1032" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/شستشو">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1020" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/شکستنی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1020" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/شلوار">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1032" />
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1033" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/شمع">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1026" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/شمعدان">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1026" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/شنا">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1006" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/شیر">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1013" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/صرافی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/صندلی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1027" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/صندلی-راحتی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1027" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/صندلی-کار">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1027" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/ضدآفتاب">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1028" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/عروسک">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1035" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/عطر">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1028" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/علمی-تخیلی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1025" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/عینک-آفتابی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1036" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/غاز">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1012" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/غلط-گیر">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1024" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/فلش-مموری">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1002" />
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/فوتبال">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1006" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/فیلم">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1019" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/قاب-عکس">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1026" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/قلم-مو">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1008" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/قلیان">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1017" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/قهوه-جوش">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1034" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/قیچی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1031" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کابل">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1030" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کابل-اچ-تی-ام-ال">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1002" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کارت-ارتباطی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کارت-شارژ">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1001" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کارد-چنگال">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1020" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کاسنی تلخ">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1011" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کاسنی فرنگی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1011" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کاغذ-A4">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1008" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کامپیوتر">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کاناپه">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1027" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کاهو">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1011" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کت">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1032" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کتاب">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1025" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کتابخانه">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1027" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کتری-برقی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1034" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کرفس">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1011" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کرم">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1028" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کرم-صورت">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1028" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کره">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1013" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کروات">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1032" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کفش-زنانه">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1033" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کفش-فوتبال">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1006" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کفش-مردانه">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1032" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کفش-ورزشی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1005" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کلاس-بسکتبال">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1021" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کلاس-تنیس">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1023" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کلاس-فوتبال">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1006" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کلاس-والیبال">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1022" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کلاس-ورزش">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1005" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کلاه">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1032" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کلم">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1011" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کمپوت">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1010" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کمپینگ">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کنسول">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1027" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کنسول-بازی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کوله-پشتی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کیبورد">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کیس">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کیف-CD">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1019" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کیف-پول">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1032" />
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1033" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کیف-لپ-تاپ">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/کيف-موبايل">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1001" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/گردنبند">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1036" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/گرمایش">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1020" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/گلدان">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1026" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/گلسر">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1036" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/گل-مصنوعی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1026" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/گواش">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1008" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/گوشت">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1012" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/گوشت-کوب-برقی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1034" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/گوشت-گوساله">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1012" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/گوشت-گوسفند">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1012" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/گوشواره">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1036" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/گیاه-ابزی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1015" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/لاغری">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1009" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/لامپ">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1029" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/لباس">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1033" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/لباس-بسکتبال">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1021" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/لباس-تنیس">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1023" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/لباس-فوتبال">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1006" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/لباس-مردانه">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1032" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/لباس-والیبال">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1022" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/لباس-ورزشی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1005" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/لپ-تاپ">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/لوازم-آرایش">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1028" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/لوازم-التحریر">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1008" />
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1024" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/لوازم-برقی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1034" />
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1029" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/لوازم-خانگی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1020" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/لوازم-خیاطی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1031" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/لوازم-شنا">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1006" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/لوستر">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1027" />
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1029" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/لوسیون">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1028" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/ماژیک">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1024" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/ماژیک-گرافیکی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1008" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/ماشین">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1035" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/ماشین-حساب">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1024" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/ماهی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1015" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/مایو">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1006" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/مبلمان">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1027" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/مجسمه">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1026" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/مجله">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1025" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/مجله-ورزشی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1005" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/محافظ">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1001" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/مخلوط-کن">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1034" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/مداد">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1008" />
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1024" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/مدادرنگی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1008" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/مدیریت-تور">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/مراقبت-پوستی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1028" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/مرکب-هندی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1008" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/مسابقه">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1005" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/مسابقه-بسکتبال">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1021" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/مسابقه-تنیس">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1023" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/مسابقه-فوتبال">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1006" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/مسابقه-والیبال">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1022" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/مسافرت">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/مسافرخانه">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/مسواک-برقی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1034" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/مطلب">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1025" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/مقاله">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1025" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/مموری">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1001" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/منبع-تغذیه">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1029" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/موبایل">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1001" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/مودم-خارجی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/موز">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1010" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/مولتی-مدیا">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/میخ">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1030" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/میز">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1027" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/میزتحریر">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1027" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/میز-تلفن">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1001" />
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1027" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/میز-کامپیوتر">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1027" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/میکروفن">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1001" />
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/مینی-بورد">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/نخ">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1031" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/نرم-افزار-آموزشی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1019" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/نرم-افزار">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1019" />
+                <ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/نقشه">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/نوت-بوک">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/نوشابه">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1018" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/نوشیدنی غیر-الکلی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1016" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/هتل">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1004" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/هدست">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/هد-فون">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1001" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/هدفون-تلوزیون">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1002" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/هلو">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1010" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/همبرگر">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1018" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/همزن">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1034" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/همیوتراپی">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1009" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/هویج">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1011" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/وب-کم">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1003" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/ویتامین">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/Category#1009" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.myproducts.com/ویدئو">
+		<ns0:InCategoryOf rdf:resource="http://www.myproducts.com/ Category#1002" />
+	</rdf:Description>
+</rdf:RDF>

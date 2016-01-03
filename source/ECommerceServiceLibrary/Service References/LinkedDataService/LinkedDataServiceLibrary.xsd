@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/LinkedDataServiceLibrary" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/LinkedDataServiceLibrary" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:simpleType name="DatasourceFileType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Rdfxml" />
+      <xs:enumeration value="NTriples" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="DatasourceFileType" nillable="true" type="tns:DatasourceFileType" />
+  <xs:complexType name="MySoapFault">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Details" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MoreDetails" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Operation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Reason" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MySoapFault" nillable="true" type="tns:MySoapFault" />
+  <xs:complexType name="MyResults">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="items" nillable="true" type="tns:ArrayOfQueryResult" />
+      <xs:element minOccurs="0" name="query" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MyResults" nillable="true" type="tns:MyResults" />
+  <xs:complexType name="ArrayOfQueryResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="QueryResult" nillable="true" type="tns:QueryResult" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfQueryResult" nillable="true" type="tns:ArrayOfQueryResult" />
+  <xs:complexType name="QueryResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="result" nillable="true" type="xs:string" />
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="variables" nillable="true" type="q1:ArrayOfstring" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="QueryResult" nillable="true" type="tns:QueryResult" />
+</xs:schema>

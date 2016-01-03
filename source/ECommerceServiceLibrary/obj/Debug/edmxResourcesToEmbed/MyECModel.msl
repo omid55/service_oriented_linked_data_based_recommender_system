@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ECommerceDBModelStoreContainer" CdmEntityContainer="ECDBEntities">
+    <EntitySetMapping Name="AdsTbls">
+      <EntityTypeMapping TypeName="ECommerceDBModel.AdsTbl">
+        <MappingFragment StoreEntitySet="AdsTbls">
+          <ScalarProperty Name="AId" ColumnName="AId" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BestCustomersTbls">
+      <EntityTypeMapping TypeName="ECommerceDBModel.BestCustomersTbl">
+        <MappingFragment StoreEntitySet="BestCustomersTbls">
+          <ScalarProperty Name="Cid" ColumnName="Cid" />
+          <ScalarProperty Name="ClusterId" ColumnName="ClusterId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerTbls">
+      <EntityTypeMapping TypeName="ECommerceDBModel.CustomerTbl">
+        <MappingFragment StoreEntitySet="CustomerTbls">
+          <ScalarProperty Name="Cid" ColumnName="Cid" />
+          <ScalarProperty Name="Cname" ColumnName="Cname" />
+          <ScalarProperty Name="Cfamily" ColumnName="Cfamily" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="NumberOfPurchases" ColumnName="NumberOfPurchases" />
+          <ScalarProperty Name="LoggedInDuration" ColumnName="LoggedInDuration" />
+          <ScalarProperty Name="NumberOfLogins" ColumnName="NumberOfLogins" />
+          <ScalarProperty Name="LastLoginDate" ColumnName="LastLoginDate" />
+          <ScalarProperty Name="LastPurchaseDate" ColumnName="LastPurchaseDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PurchaseTbls">
+      <EntityTypeMapping TypeName="ECommerceDBModel.PurchaseTbl">
+        <MappingFragment StoreEntitySet="PurchaseTbls">
+          <ScalarProperty Name="PurchaseId" ColumnName="PurchaseId" />
+          <ScalarProperty Name="Cid" ColumnName="Cid" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="ECommerceDBModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

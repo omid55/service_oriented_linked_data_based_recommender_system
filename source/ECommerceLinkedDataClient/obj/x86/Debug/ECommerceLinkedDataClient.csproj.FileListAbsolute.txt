@@ -1,0 +1,14 @@
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ECommerceLinkedDataClient\bin\Debug\ECommerceLinkedDataClient.exe.config
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ECommerceLinkedDataClient\bin\Debug\ECommerceLinkedDataClient.exe
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ECommerceLinkedDataClient\bin\Debug\ECommerceLinkedDataClient.pdb
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ECommerceLinkedDataClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ECommerceLinkedDataClient\obj\x86\Debug\MainWindow.baml
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ECommerceLinkedDataClient\obj\x86\Debug\MainWindow.g.cs
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ECommerceLinkedDataClient\obj\x86\Debug\App.g.cs
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ECommerceLinkedDataClient\obj\x86\Debug\ECommerceLinkedDataClient_MarkupCompile.cache
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ECommerceLinkedDataClient\obj\x86\Debug\ECommerceLinkedDataClient.g.resources
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ECommerceLinkedDataClient\obj\x86\Debug\ECommerceLinkedDataClient.Properties.Resources.resources
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ECommerceLinkedDataClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ECommerceLinkedDataClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ECommerceLinkedDataClient\obj\x86\Debug\ECommerceLinkedDataClient.exe
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ECommerceLinkedDataClient\obj\x86\Debug\ECommerceLinkedDataClient.pdb

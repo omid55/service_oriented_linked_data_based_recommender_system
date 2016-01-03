@@ -1,0 +1,6 @@
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ECommerceServiceLibrary\bin\Debug\ECommerceServiceLibrary.dll
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ECommerceServiceLibrary\bin\Debug\ECommerceServiceLibrary.pdb
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ECommerceServiceLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ECommerceServiceLibrary\obj\Debug\ECommerceServiceLibrary.dll
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ECommerceServiceLibrary\obj\Debug\ECommerceServiceLibrary.pdb
+C:\Users\SONY\Documents\Visual Studio 2010\Projects\ECommerceLinkedDataProject\ECommerceServiceLibrary\bin\Debug\ECommerceServiceLibrary.dll.config

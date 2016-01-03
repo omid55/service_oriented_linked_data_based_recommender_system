@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/ECommerceServiceLibrary" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/ECommerceServiceLibrary" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" />
+  <xs:simpleType name="OrderMode">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ProductName" />
+      <xs:enumeration value="SameCategory" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="OrderMode" nillable="true" type="tns:OrderMode" />
+  <xs:complexType name="MySoapFault">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Details" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MoreDetails" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Operation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Reason" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MySoapFault" nillable="true" type="tns:MySoapFault" />
+  <xs:complexType name="ArrayOfCustomerTbl">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CustomerTbl" nillable="true" type="tns:CustomerTbl" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCustomerTbl" nillable="true" type="tns:ArrayOfCustomerTbl" />
+  <xs:complexType name="CustomerTbl">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q1:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Age" nillable="true" type="xs:decimal" />
+          <xs:element minOccurs="0" name="BestCustomersTbls" nillable="true" type="tns:ArrayOfBestCustomersTbl" />
+          <xs:element minOccurs="0" name="Cfamily" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Cid" type="xs:int" />
+          <xs:element minOccurs="0" name="Cname" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="LastLoginDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="LastPurchaseDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="LoggedInDuration" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="NumberOfLogins" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="NumberOfPurchases" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="PurchaseTbls" nillable="true" type="tns:ArrayOfPurchaseTbl" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CustomerTbl" nillable="true" type="tns:CustomerTbl" />
+  <xs:complexType name="ArrayOfBestCustomersTbl">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="BestCustomersTbl" nillable="true" type="tns:BestCustomersTbl" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfBestCustomersTbl" nillable="true" type="tns:ArrayOfBestCustomersTbl" />
+  <xs:complexType name="BestCustomersTbl">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q2="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q2:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Cid" type="xs:int" />
+          <xs:element minOccurs="0" name="ClusterId" type="xs:int" />
+          <xs:element minOccurs="0" name="CustomerTbl" nillable="true" type="tns:CustomerTbl" />
+          <xs:element minOccurs="0" name="CustomerTblReference" nillable="true" type="q2:EntityReferenceOfCustomerTblqmSm1zCD" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="BestCustomersTbl" nillable="true" type="tns:BestCustomersTbl" />
+  <xs:complexType name="ArrayOfPurchaseTbl">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PurchaseTbl" nillable="true" type="tns:PurchaseTbl" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPurchaseTbl" nillable="true" type="tns:ArrayOfPurchaseTbl" />
+  <xs:complexType name="PurchaseTbl">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q3="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q3:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Cid" type="xs:int" />
+          <xs:element minOccurs="0" name="CustomerTbl" nillable="true" type="tns:CustomerTbl" />
+          <xs:element minOccurs="0" name="CustomerTblReference" nillable="true" type="q3:EntityReferenceOfCustomerTblqmSm1zCD" />
+          <xs:element minOccurs="0" name="Date" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="ProductName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PurchaseId" type="xs:int" />
+          <xs:element minOccurs="0" name="Quantity" nillable="true" type="xs:decimal" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="PurchaseTbl" nillable="true" type="tns:PurchaseTbl" />
+</xs:schema>
