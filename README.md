@@ -1,0 +1,2 @@
+# service_oriented_linked_data_based_recommender_system
+Service oriented linked data based recommender system project
